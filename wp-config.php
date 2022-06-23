@@ -80,6 +80,7 @@ $table_prefix = 'msg641_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+define('ALLOW_UNFILTERED_UPLOADS', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
