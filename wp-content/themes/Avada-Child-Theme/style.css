@@ -1,0 +1,30 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+@import url("/wp-content/themes/Avada-Child-Theme/font/stylesheet.css");
+
+.error-page{
+    float:left;
+    width:100%;
+    min-height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:639px){
+    .error-page{
+        min-height:auto;
+        padding:85px 0;
+    }
+    .error-page img{
+        max-width:250px;
+    }
+}
