@@ -410,52 +410,52 @@ function redirect_if_404() {
 //}
 
 
-add_action('init','check_location_redirect');
-function check_location_redirect(){
+// add_action('init','check_location_redirect');
+// function check_location_redirect(){
 
-	$cookie_name = "mello_locatioin";
-	$cookie_value = "";
-	$is_redirect_cookie = 'is_redirect_mellow';
-	$user_ip  = $_SERVER['REMOTE_ADDR'];
+// 	$cookie_name = "mello_locatioin";
+// 	$cookie_value = "";
+// 	$is_redirect_cookie = 'is_redirect_mellow';
+// 	$user_ip  = $_SERVER['REMOTE_ADDR'];
 
-	$locations = [
-				['location' => 'college-area', 'lat' => 32.7657612, 'long' => -117.0611822],
-				['location' => 'hillcrest','lat' => 32.7487114, 'long' => -117.1564724],
-				['location' => 'pacific-beach', 'lat'=> 32.7850126,'long' =>-117.2929761],
-				['location' => 'hollywood', 'lat'=> 34.089348,'long' =>-118.3322413]
-			];
+// 	$locations = [
+// 				['location' => 'college-area', 'lat' => 32.7657612, 'long' => -117.0611822],
+// 				['location' => 'hillcrest','lat' => 32.7487114, 'long' => -117.1564724],
+// 				['location' => 'pacific-beach', 'lat'=> 32.7850126,'long' =>-117.2929761],
+// 				['location' => 'hollywood', 'lat'=> 34.089348,'long' =>-118.3322413]
+// 			];
 
-	if(!isset($_COOKIE[$cookie_name])) {
+// 	if(!isset($_COOKIE[$cookie_name])) {
 
-		$url = "https://ipinfo.io/".$user_ip."?token=e1e16e3ee4b24c";
+// 		$url = "https://ipinfo.io/".$user_ip."?token=e1e16e3ee4b24c";
 
-		//$url = "https://ipinfo.io/192.150.86.225?token=e1e16e3ee4b24c";
-		$geoloaction = json_decode(file_get_contents($url));
-		list($lat,$long) = explode(',', $geoloaction->loc);
+// 		$url = "https://ipinfo.io/192.150.86.225?token=e1e16e3ee4b24c";
+// 		$geoloaction = json_decode(file_get_contents($url));
+// 		list($lat,$long) = explode(',', $geoloaction->loc);
 
-		$less_distance = [];
-		foreach ($locations as $key => $location) {
-			$less_distance[ $location['location'] ] = distance($lat, $long, $location['lat'], $location['long'], "K");
-			distance($lat, $long, $location['lat'], $location['long'], "K");
-		}
+// 		$less_distance = [];
+// 		foreach ($locations as $key => $location) {
+// 			$less_distance[ $location['location'] ] = distance($lat, $long, $location['lat'], $location['long'], "K");
+// 			distance($lat, $long, $location['lat'], $location['long'], "K");
+// 		}
 
-		$cookie_value = array_search(min($less_distance), $less_distance);
-		setcookie($cookie_name, $cookie_value, time() + (86400), "/");
-		if(!isset($_COOKIE[$is_redirect_cookie])) {
+// 		$cookie_value = array_search(min($less_distance), $less_distance);
+// 		setcookie($cookie_name, $cookie_value, time() + (86400), "/");
+// 		if(!isset($_COOKIE[$is_redirect_cookie])) {
 
-			setcookie($is_redirect_cookie, 'yes','','/');
-			wp_redirect(site_url('/'.$cookie_value));exit();
+// 			setcookie($is_redirect_cookie, 'yes','','/');
+// 			wp_redirect(site_url('/'.$cookie_value));exit();
 
-		}
-	} else {
+// 		}
+// 	} else {
 
-		if(!isset($_COOKIE[$is_redirect_cookie])) {
-			setcookie($is_redirect_cookie, 'yes','','/');
-			wp_redirect(site_url('/'.$_COOKIE[$cookie_name]));
-			exit();
-		}
-	}
-}
+// 		if(!isset($_COOKIE[$is_redirect_cookie])) {
+// 			setcookie($is_redirect_cookie, 'yes','','/');
+// 			wp_redirect(site_url('/'.$_COOKIE[$cookie_name]));
+// 			exit();
+// 		}
+// 	}
+// }
 
 
 function distance($lat1, $lon1, $lat2, $lon2, $unit) {
