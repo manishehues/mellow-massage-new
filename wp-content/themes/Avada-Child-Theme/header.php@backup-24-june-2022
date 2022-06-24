@@ -182,10 +182,20 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 	
 	
 	
-	<div class="siteHeader full">					
-		<div class="leftSide">						
+	<div class="siteHeader full">
+	<div id="bars" class="mobile_toggle" style="display:none">
+		<div>
+			<span class="bar one"></span>
+			<span class="bar two"></span>
+			<span class="bar three"></span>
+		</div>
+	</div>					
+		<div class="leftSide">
+			<div class="siteLogo">
+				<a href="<?php echo $headerMenu['logo_url'];?>"><img width="154" src="<?php echo $headerMenu['logo'];?>" alt="<?php echo get_bloginfo( 'name' ); ?>" /></a>
+			</div>			
 			<div class="navBar">
-				<div id="bars" class="mobile_toggle">
+				<div id="bars" class="mobile_toggle" style="display:none">
 					<span class="bar one"></span>
 					<span class="bar two"></span>
 					<span class="bar three"></span>
@@ -244,8 +254,17 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 		</div>
 		<div class="rightSide contactDetails">
 			<div class="phoneNumber">
-				<h4><a href="tel:<?php echo $headerMenu['contact_no'];?>" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/phoneIcon.jpg" alt="Phone"> <span><?php echo $headerMenu['contact_no'];?></span></a></h4>
+				<h4><a href="tel:<?php echo $headerMenu['contact_no'];?>" ><span><?php echo $headerMenu['contact_no'];?></span></a></h4>
 			</div>
+					
+			<?php if(!empty($headerMenu['book_now_text'])) : ?>
+				<div class="bookNow-btn">
+					<a class="btn openPopup" href="<?php echo $headerMenu['book_now_link'];?>"><span class="fusion-button-text"><?php echo $headerMenu['book_now_text'];?></span></a>
+				</div>
+			<?php endif;?>
+			<!-- <div class="bookNow-btn" style="display:none;">
+				<a class="bttn fusion-button small" target="_self" href="<?php echo $headerMenu['book_now_link'];?>"><span class="fusion-button-text">Book Now </span></a>
+			</div> -->			
 		</div>
 	</div>
 </header>

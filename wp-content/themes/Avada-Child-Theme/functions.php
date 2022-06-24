@@ -1,11 +1,11 @@
 <?php
 
 function theme_enqueue_styles() {
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'avada-stylesheet' ) );
-    wp_enqueue_style( 'slick-style', get_stylesheet_directory_uri() . '/assets/css/slick.css', array( 'avada-stylesheet' ) );
-    wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/css/custom.css', array( 'avada-stylesheet' ) );
-    wp_enqueue_style( 'responsive-style', get_stylesheet_directory_uri() . '/assets/css/responsive.css', array( 'avada-stylesheet' ) );
-    wp_enqueue_style( 'fontawesome-style', 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css', array( 'avada-stylesheet' ) );
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'slick-style', get_stylesheet_directory_uri() . '/assets/css/slick.css' );
+    wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/css/custom.css', array( 'fusion-dynamic-css' ) );
+    wp_enqueue_style( 'responsive-style', get_stylesheet_directory_uri() . '/assets/css/responsive.css', array( 'fusion-dynamic-css' ) );
+    wp_enqueue_style( 'fontawesome-style', 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css' );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
@@ -87,7 +87,7 @@ function getAllLocations(){
 
 function get_header_menu_data($queried_object){
 
-	$default_menu = 747;
+	$default_menu = 70;
 	$requested_page_id = $queried_object->ID;
 	$requested_post_parent = $queried_object->post_parent;
 	$mobile_call_icon = "";
@@ -221,7 +221,7 @@ function get_header_menu_data($queried_object){
 	}
 
 	if(is_404()){
-		$default_menu = 747;
+		$default_menu = 70;
 
 	}
 
@@ -279,7 +279,7 @@ function getContactData(){
 
 function getFooterMenuData($queried_object){
 
-	$default_menu = 747;
+	$default_menu = 70;
 	$requested_page_id = $queried_object->ID;
 	$requested_post_parent = $queried_object->post_parent;
 
@@ -335,16 +335,16 @@ function getFooterMenus() {
 	if( have_rows('footer_menu') ):
 		while ( have_rows('footer_menu') ) : the_row();
 			$page_link_link = "";					
-			$menu_obj = get_sub_field('page_link');
-			$name = get_sub_field('page_name');
+			$contact_detail = get_sub_field('contact_detail');
+			 $name = get_sub_field('page_name');
 
-			$page_link_link = get_permalink($menu_obj->ID);
+			// $page_link_link = get_permalink($menu_obj->ID);
 			
-			if(!empty($menu_obj)){
-				$page_link_link = get_permalink($menu_obj->ID);
-			}
+			// if(!empty($menu_obj)){
+			// 	$page_link_link = get_permalink($menu_obj->ID);
+			// }
 					
-			$menu[] = array('id' => $menu_obj->ID, 'name' => $name,'page_link_link'=>($page_link_link)?$page_link_link : "javascript:void(0);");
+			$menu[] = array('contact_detail' => $contact_detail,'name' => $name );
 						
 		endwhile; // END PAGES WHILE LOOP 
 	endif;

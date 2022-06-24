@@ -24,10 +24,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</main>  <!-- #main -->
 				<div class="site-footer footer_bender">
 					<div class="fusion-builder-row fusion-row">
-						<div class="siteLogo">
-							<a href="<?php echo $headerMenu['logo_url'];?>"><img width="154" src="<?php echo $headerMenu['logo'];?>" alt="<?php echo get_bloginfo( 'name' ); ?>" /></a>
-						</div>
-						
 						<div class="footerNav">
 							<div class="footerMenu">							
 								<?php
@@ -35,19 +31,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 									//$headerMenu = getMenuData($queried_object);
 									$footerContent = getfooterMenuData($queried_object);
 								?>
-								<ul>
+								
 									<?php foreach ($footerContent['menu'] as $menu) { ?>
-										<li><a href="<?php echo $menu['page_link_link']; ?>" aria-label="attribute" role="main"><?php echo $menu['name']; ?></a></li>
+										<div class="snglLocation">
+											<h4><?php echo $menu['name']; ?></h4>
+											<div class="conDetails"><?php echo $menu['contact_detail']; ?></div>
+										</div>										
 
 									<?php } ?>							
-								</ul>
+								
 							</div>
 							<!-- <div class="col-6 footerMenu newsletter">
 								<?php dynamic_sidebar('avada-custom-sidebar-footersocaillinks'); ?>
 							</div> -->
 						</div>
 						<div class="copyright">
-							<?php dynamic_sidebar('avada-custom-sidebar-copyrightandsociallinks'); ?>
+							<p>© 2022 Mellow Massage. All Rights Reserved</p>
 						</div>						
 					</div>			
 				</div>
