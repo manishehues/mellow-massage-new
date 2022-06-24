@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&display=swap');
+@import url("https://use.typekit.net/ovo3tuc.css");
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
 html {
@@ -16,9 +17,9 @@ font-size: 100%;
 
 
 :root{
-    --sweetSans: Sweet Sans Pro;
+    --sweetSans: sweet-sans-pro, sans-serif;
     --didot: Didot;
-    --CG: Cormorant Garamond;
+    --CG: 'Cormorant Garamond', serif;
     --hel: Helvetica;
     
     /*====Colors====*/
@@ -116,6 +117,10 @@ body{
     margin:0!important
 }
 
+
+.entryContent h1{
+    font-size:var(--h1)!important;    
+}
 
 .entryContent.sweetSans p{
     font-family:var(--sweetSans);
@@ -452,16 +457,8 @@ body.logged-in .siteHeader{
     background:var(--light-bg-color);
     display:none;
 }
-.siteHeader .navBar ul li.menu-item:hover a.menuLink::after,
-.siteHeader .navBar ul li.menu-item.active a.menuLink::after{
-    content:'';
-    position: absolute;
-    left:0;
-    bottom:-4px;
-    height:3px;
-    width:100%;
-    background:var(--light-bg-color);
-    display:block;
+.siteHeader .navBar ul li.menu-item.active a{
+    font-weight:700;
 }
 
 .siteHeader .navBar ul li.menu-item.dropdown-menu .MobileSubMenu{
@@ -856,7 +853,8 @@ body.logged-in .siteHeader{
     font-family:var(--CG);
     font-size:23px;
     font-weight:normal;
-    letter-spacing: 2px;;   
+    letter-spacing: 2px;
+    font-style:italic;   
 }
 
 .allPages .bottomArrow{
@@ -981,4 +979,126 @@ body.logged-in .siteHeader{
 
 .fusion-body .headerArea .mainLogoArea .fusion-text h1{
     margin-bottom:25px;
+}
+
+.fusion-body .headerArea .mainLogoArea .fusion-text p{
+    margin-bottom:0;
+}
+
+
+.snglLocation {
+    height:100vh;
+    margin-bottom:60px!important;
+}
+
+.snglLocation .fusion-row{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.snglLocation .locDetails .fusion-text h1{
+    margin-top:0px!important;
+    line-height:50px!important;
+}
+.snglLocation .locDetails .fusion-text h4{
+    font-family:var(--CG);
+    font-weight: var(--regular);
+    font-size:26px;
+    margin:0;
+}
+
+.snglLocation .locDetails .fusion-text p{
+    color:#2a2a2a;
+    font-size:14px;
+    line-height:2em;
+}
+.snglLocation .locDetails .fusion-text .conDetails{
+    margin-top:45px;
+}
+.snglLocation .locDetails .fusion-text .conDetails p{
+    font-family:var(--sweetSans)!important;
+    letter-spacing: 2px;
+    color:#2a2a2a;;    
+    font-size:12px;
+    text-transform: uppercase;
+
+}
+
+/* ======= Services ======== */
+
+
+.fusion-body .allPages{
+    margin-bottom:50px!important;
+}
+
+.fusion-body .allPages .snglPage{
+    height: calc(50vh - 60px)
+}
+
+.fusion-body .allPages .snglPage.topMargin-left{
+    margin-right:5px!important;
+    margin-bottom:5px!important;
+}
+
+.fusion-body .allPages .snglPage.topMargin-right{
+    margin-left:5px!important;
+    margin-bottom:5px!important;
+}
+
+.fusion-body .allPages .snglPage.bottomMargin-left{
+    margin-right:5px!important;
+    margin-top:5px!important;
+}
+
+.fusion-body .allPages .snglPage.bottomMargin-right{
+    margin-left:5px!important;
+    margin-top:5px!important;
+}
+
+.fusion-body .allPages .snglPage.centMarTopBot-left{
+    margin-right:5px!important;
+    margin-bottom:5px!important;
+    margin-top:5px!important;
+}
+
+.fusion-body .allPages .snglPage.centMarTopBot-right{
+    margin-left:5px!important;
+    margin-bottom:5px!important;
+    margin-top:5px!important;
+}
+
+.allServices .allPages .snglPage .fusion-text.servTitle{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);    
+}
+
+.allServices .allPages .snglPage .fusion-text.serDetails{
+    position: absolute;
+    left:50%;    
+    transform:translateX(-50%);    
+    bottom:0px;
+}
+
+.allServices .allPages .snglPage .fusion-text.serDetails p{
+    color:#fff;
+    text-align: center;
+}
+
+.allServices .allPages .snglPage .fusion-text.servTitle h1{
+    color:var(--white-color);
+    text-align: center;
+    line-height:30px!important;
+    font-size:65px!important;
+    text-transform:uppercase;
+}
+
+.allServices .mainLogoArea{
+    margin-top:300px!important;
+}
+
+.allServices .allPages .snglPage .fusion-text.servTitle h1 strong{
+    font-weight:normal;
+    font-size:28px;
 }
