@@ -4,6 +4,10 @@
         margin-top: 50px !important;
         width: 700px !important;
     }
+
+    .allServices .mainLogoArea{
+        margin-top:240px!important;
+    }
 }
 
 
@@ -80,6 +84,27 @@
     }
     .fusion-body .ownerBio .fusion-text p{
         font-size:11px;
+    }
+
+    .allPages .fusion-column-wrapper .fusion-builder-row{
+        margin-left: calc(-4% / 2 ) !important;
+    }
+    .fusion-body .allPages .snglPage.topMargin-left,
+    .fusion-body .allPages .snglPage.topMargin-right,
+    .fusion-body .allPages .snglPage.bottomMargin-left,
+    .fusion-body .allPages .snglPage.topMargin-right,
+    .fusion-body .allPages .snglPage.centMarTopBot-left,
+    .fusion-body .allPages .snglPage.centMarTopBot-right,
+    .fusion-body .allPages .snglPage.bottomMargin-right{
+        margin:0!important;
+        margin-bottom:10px!important
+    }
+
+    .fusion-body .fusion-layout-column.allPages .fusion-column-wrapper{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .fusion-body .allPages .snglPage{
     }
 }
 
@@ -305,613 +330,27 @@
 
 @media screen and (max-width:639px){
 	
-	.btn.hideshow {display: inline-block !important;padding-bottom: 0;    padding-top: 0;padding: 0px 40px;		font-size: 20px;margin: 10px 0px;}
-	.fusion-body .serviceforpage .snglServices{width: calc(100% - 20px) !important;  margin-bottom: 20px !important;}
-	
-#landingPage.heroBanner.mobile .bannerContent .fusion-text h1{margin-bottom: 0;margin-top: 15px; color: #e5e6c3!important; padding: 0px 30px;}
-#landingPage.heroBanner.mobile .bannerImg img{position: relative;top: 20px;}
-.fusion-body .shortContainer.mobile .fusion-row{padding: 0px 10px!important;}
-.fusion-body #lanFeatureServices.featServices.mobile .snglServices .fusion-column-wrapper{border-radius: 0px;}
-/*#lanFeatureServices.featServices.mobile .fusion-text p{padding: 0px 12px;}*/
-#lanFeatureServices.featServices.mobile{padding-bottom: 100px !important;}
-#lanPageInfo.aboutInfo.mobile .fusion-builder-row .leftSide.imgArea .fusion-column-wrapper .fusion-imageframe .img-responsive.wp-image-1080{max-width: 250px!important;}
-.img-responsive.wp-image-1087 {display: none;}
-#lanPageInfo.mobile .fusion-row{margin-top: -212px; padding-left: 0px!important; padding-right: 0px!important;}
-.secTitle.fusion-title h2{font-size: 40px!important;line-height: 1.2em;}
-.massageFeature.mobile{}
-.massageFeature.mobile .fusion-row{box-shadow: none!important; /*padding: 0px!important;*/}
-.fusion-body .massageFeature.mobile .sngMassageFeat{box-shadow: 0px 0px 18.63px rgba(0, 1, 0, 0.08)!important; margin-bottom: 30px !important;}
-#massageFeature.mobile{margin-top: 0px!important;}
-.secTitle.fusion-title .title-heading-left p span{font-size: 40px !important;}
-.img-responsive.wp-image-1104{position: relative;right: 340px;}
-.fusion-body .therapist .sngTherapist.space{margin-top: 70px!important;}
-.therapist .sngTherapist .imgArea {width: 185px;margin: auto;margin-bottom: auto;margin-bottom: -70px;display: block;top: -60px;}
-.therapist .sngTherapist .fusion-text{padding-top: 32px !important;padding-bottom: 10px;}
-#lanFeatureServices.featServices.mobile .fusion-text p{margin-bottom: 0px!important;}
-#lanPageInfo.mobile{padding-bottom: 0px!important;}
-.massageFeature.mobile .fusion-row{padding-top: 0px!important;}
-
-
-
-     
-.heroBanner .bannerContent .fusion-text-1{width: 100%; float: left;}
-.heroBanner .bannerContent .fusion-text h3{ font-size: 40px !important;}
-.heroBanner .bannerContent #button-for-mobile{display: block!important; background: #dcc094; color: #ffffff;font-family: 'Circular Std Book';
-text-transform: capitalize; font-weight: normal; border-radius: 0; font-size: 20px;margin-top: 10px; padding: 20px 44px; }
-.heroBanner .bannerContent #button-for-mobile:hover{background:#c9ab7b;}
-.heroBanner .bannerContent .bttn.btnOutline.white.more{display: none!important;}
-/*#experience .secTitle.fusion-border-below-title h2{text-align: center!important; color: #d2b78c;}
-.LeftSide.experience.contArea .entryContent p{text-align: center!important; color: #a7a3a3;}
-#homeContent{background-color: #ffffff!important;}*/
-.homeContent.Desktop{display: none;}
-.homeContent.mobile{display: block!important;}
-.homeContent.mobile #experience{ padding:30px 0px ;}
-.homeContent.mobile .LeftSide.experience.contArea .entryContent p{color: #a7a3a3!important; padding: 0px 26px;}
-.featServices.services{padding: 30px !important;padding-top: 30px !important;}
-#featServices .title-heading-left,.fusion-body .featServices .fusion-text p{text-align: center; font-size: 16px;}
-#haveQues .fusion-body .fusion-builder-column-8{margin-bottom: 0px!important}
-.haveQues p{margin-top: 0 !important;font-size: 18px;
-margin-bottom: 0px !important;color: #98aaac;padding: 30px 0px;padding-top: 30px;line-height: 30px;padding-top: 52px;}
-/* .snglServices .forServices{display: none;} */
-.fusion-body .featServices .snglServices .fusion-column-wrapper{padding: 27px 23px !important; padding-top: 27px; padding-top: 15px !important; background: #f9fbfa!important;}
-.homeContent.mobile .secTitle.fusion-title .title-heading-left{font-size: 36px!important;}
-.locationAddress .fusion-text p{display: none;}
-.LocationAddress.desktop.for{display: none!important;}
-.LocationAddress.mobile.for{display: block!important;}
-#LocationAddress{width: 100%; float: left;}
-.LocationAddress.mobile.for #button-for-mobile {
-display: block !important;
-background: #dcc094;
-color: #ffffff;
-font-family: 'Circular Std Book';
-text-transform: capitalize;
-font-weight: normal;
-border-radius: 0;
-font-size: 20px;
-margin-top: 10px;
-padding: 20px 44px;
-width: 80%;
-margin: 0 auto;
-}
-
-.site-footer .rightSide{display: none;}
-
-.site-footer .leftSide{display: block;}
-
-.companyBoi p{ color:  #9caab7!important;}
-.leftSide.companyBoi h2{color: #fff!important;}
-#text-4{display: block; background: transparent;}
-#text-4 .textwidget p{background: transparent!important;padding: 0;}
-#text-4 .textwidget p img{max-width: 75px!important;padding: 0px 6px;}
-#content{margin-top:0px;}
-#homeContent .fusion-flex-container .fusion-row{padding:0px !important;}
-	
-	/* .fusion-flex-container .fusion-row
-	{
-		padding-left:30px;
-		padding-right:30px;
-} */
-	
-	
-
-	#Pricesofer
-	{
-		padding:0px;
-	}
-	#Pricesofer .snglePrice h2 strong
-	{
-		font-size:20px;
-		top:1px;
-	}
-	
-	.heroDesktop
-	{
-		display:none;
-	}
-	
-	#bannerMobile
-	{
-		display:block;
-	}
-
-	
-.heroBanner .bannerContent .fusion-text h3{font-size: 28px !important;padding-top:140px;color: #e0dfc9; line-height: 34px;
-margin-bottom: 15px;}
-.heroBanner .bannerContent #button-for-mobile{font-size:15px;}
-#about-us .verticleMellow p::before{display: none;}
-#about-us .banContent.leftSide p,#about-us .banContent.leftSide h1,#about-us .banContent.leftSide p,#SecondSeC .banContent.leftSide h3,#SecondSeC .banContent.leftSide p{text-align: center!important;}
-#SecondSeC .fortheimage{display: none;}
-#about-us .banContent.leftSide h1{font-size: 30px;}
-#content{margin-bottom: 0px!important;}
-#about-us .verticleMellow p{margin: 20px 0px;}
-#Pricesofer .snglePrice h2::after{display: none;}
-.setthetn .fusion-column-wrapper{padding: 0px!important;}
-#Pricesofer h4{padding-top: 30px;}
-#Pricesofer .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column{padding: 0px 14px!important;}
-#Pricesofer .setthetn .forpage{font-size: 14px; margin-top: 0;}
-#map .fusion-builder-row.fusion-row.fusion-flex-align-items-flex-start{padding: 0px!important;}
-.LocationAddress.mobile.for #button-for-mobile{font-size: 16px!important;}
-.page-id-2 .fusion-flex-container .fusion-row{ padding-left: 0px!important;padding-right: 0px!important;}
-.heroBanner .bannerContent .fusion-text h3{padding-left: 15px; padding-right: 15px;}
-.rightSide.contactDetails .phoneNumber h4 i{font-size:32px;} 
-.heroBanner{min-height:auto;}
-#text-2.widget_text{width: 100%;}
-.homeContent .LeftSide.experience{width: 100%!important;}
-.homeContent.mobile .LeftSide.experience.contArea .entryContent p{padding: 0px!important;}
-.fusion-body .featServices .snglServices .fusion-column-wrapper{background: #edf3f1 !important; margin: 0px !important;}
-.fullwidth-box.video-background .fullwidth-video{top: 0px!important;}
-.fusion-builder-column-4 > .fusion-column-wrapper{margin-right: 0!important;}
-.site-footer .leftSide{padding-top: 40px!important;}
-.home .fusion-flex-container .fusion-row{padding-left: 0px!important;
-padding-right: 0px!important;}
-#LocationAddress{padding-top: 50px;
-padding-bottom: 50px;}
-.boxborder{border-right: 0px solid #3d4c59;}
-.gift-card-banner .fusion-row{
-    padding:0!important;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text h3{
-    font-size:30px!important;
-}
-.btnArea a.bttn{
-    min-width:auto;
-    padding:5px  15px;
-    border-radius:5px;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text p{
-    display:block;
-    font-size:11px;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text h3{
-    margin-top:10px;
-}
-
-.fusion-body #gift-card-banner.heroBanner .fusion-row{
-    padding-left:0!important;
-    padding-right:0!important;
-}
-#gift-card-banner.heroBanner{
-    min-height:300px!important;
-}
-.post-content p{
-    line-height:1.5em;
-    font-size:15px;
-}
-.giftCard-steps .steps .allSteps .sngStep .contSide h3{
-    margin-bottom:5px;
-}
-#gift-card-banner.heroBanner .bannerImg{
-    width:330px!important
-}
-#gift-card-banner.heroBanner .bannerImg{
-    bottom:-335px;
-}
-.giftCard-steps{
-    padding-top:200px!important;
-}
-	
-	.homeContent.mobile .secTitle.fusion-title .title-heading-left p {
-    font-size: 34px !important;
-    line-height: normal!important;
-}
-	
-	#LocationAddress .LocationAddress.Style h4 {
-    font-size: 40px;
-    font-family: "ChelthmITC Bk BT";
-    letter-spacing: -1px;
-    margin-bottom: 10px!important;
-    color: #2e3f43!important;
-    font-weight: 600!important;
-}
-#landingPage.heroBanner .bannerContent .fusion-text p{
-    display:block;
-}
-#landingPage.heroBanner .bannerImg img{
-    width:100%;
-}
-#landingPage .fusion-row{
-    padding-left:0px;
-    padding-right:0;
-}
-.secTitle.fusion-title h2{
-    font-size:45px;
-    line-height:1.2em;
-}
-.fusion-body .therapist .fusion-row{
-    padding:0!important
-}
-.fusion-body .therapist .sngTherapist{
-    width:100%!important;
-    margin-left:0!important;
-    margin-right:0!important;
-}
-#lanFeatureServices.featServices{
-    padding-top:30px!important
-}
-#landingPage.heroBanner .bannerContent .fusion-text a.btn{
-    font-size: 25px;
-    width: 200px;
-    padding: 16px 25px;
-}
-#landingPage.heroBanner .bannerContent .fusion-text h1{
-    font-size:40px!important;
-}
-#landingPage.heroBanner .bannerImg img{
-    display:block;
-    width:90%;
-    margin:auto;
-}
-/*new page*/
-.page-id-1393 .siteHeader .siteLogo img{ margin-left: 50px; }
-.landing_pageslider h1 {font-size: 45px;}
-.SecondSec_Right .secTitle.fusion-title h2 p{font-size: 34px ;line-height: normal;}
-.fifth_Section_Right .secTitle.fusion-title h2 p{font-size: 34px; line-height: normal;}
-.SecondSec_Right{padding-top: 0px!important; padding-bottom: 15px;}
-.Third_Section .fusion-builder-row {padding: 0px!important;}
-.Third_Section .fusion-builder-row .Third_left{padding-left: 30px!important; padding-right: 30px!important;}
-.Third_Section .Third_left .Service .mainwrap .content_sec p{margin-bottom: 24px !important;}
-.Third_Section .Third_left h2{margin-bottom: 0px!important;}
-
-.Forth_Sec{padding-bottom: 0px!important;}
-.fifth_Section .fusion-builder-row{padding: 0px;}
-.fifth_Section .fifth_Section_Right{padding-right: 30px!important; padding-left: 30px!important;}
-.fifth_Section .fifth_Section_left{padding-top: 40px;}
-.page-id-1393 .alignnone.size-full.wp-image-60{transform: translatex(10%);}
-.fifth_Section .fifth_Section_Right{padding-top: 0em!important;}
-.page-id-1393 .site-footer.footer_bender{background-image:url(/wp-content/uploads/2021/04/footer.jpg)!important; background-size: cover; background-repeat: no-repeat;}
-.landing_pageslider h1 {
-    font-size: 40px;
-    margin-top: 20px;
-}
-
-.page-id-1393 #bars{margin-top: 12px;}
-.page-id-1393 #bars .bar{border-radius: 0; height: 4px !important; background: #bfbbb9;}
-.page-id-1393 .rightSide.contactDetails .phoneNumber h4 i{color: #bfbbb9 !important;}
-
-.mapSet iframe{
-	height:350px;
-}
-.map .mapSet{
-height:auto!important
-}
-.boxborder{
-	padding-left:0!important;
-    padding-right:0!important;
-}
-#about-us .Newpage .banContent.leftSide p, #about-us .Newpage  .banContent.leftSide h3, #about-us .Newpage .banContent.leftSide p, #SecondSeC.Newpage .banContent.leftSide h3, #SecondSeC.Newpage .banContent.leftSide p{text-align: left!important;}
-
-
-.heroBanner.memberBanner .member-text p {
-    font-size: 14px;
-    text-align: center !important;
-}
-
-.heroBanner.memberBanner .member-text h2{text-align: center!important;} 
-.heroBanner.memberBanner.fusion-flex-container .fusion-flex-align-items-flex-start {
-    margin-top: 110px !important;
-}
-#memberBanner .fusion-builder-row{padding-right: 0px!important; padding-left: 0px!important;}
-.popular-demand h3 {
-    font-size: 28px;
-}
-.popular-demand .fusion-builder-row{padding-right: 0px!important; padding-left: 0px!important;}
-.popular-demand p{margin: 0px!important;}
-.popular-demand .memberbox{max-width: 100% !important; min-height: auto;}
-
-
-
-.page-id-2297 .LocationAddress.mobile.for{display: none!important;}
-
-.page-id-747 .LocationAddress.mobile.for{display: none!important;}
-.page-id-2 .LocationAddress.mobile.for{display: none!important;}
-.page-id-744 .LocationAddress.mobile.for{display: none!important;}
-
-.bigbtnn{font-size: 22px!important;padding: 12px 35px!important;}
-
-#byNearMe{
-    padding-left:0!important;
-    padding-right:0!important;
-}
-#byNearMe.bannerArea .fusion-text{
-    padding-bottom:0;
-}
-.bannerArea .fusion-text h1{
-    margin-bottom:0!important;
-}
-#byNearMe .fusion-layout-column{
-    margin-bottom:0;
-    padding:25px 0;
-}
-#wpsl-gmap{
-    margin-top:0;
-}
-#storeLocations .fusion-row{
-    padding-left:0!important;
-    padding-right:0!important
-}
-.storeLocations #wpsl-gmap{
-    height:300px
-}
-#location-search{
-    width:100%;
-}
-.storeLocations .wpsl-search-btn-wrap input[type="submit"]{
-    margin-right:20px!important;
-}
-.careerFeatures .leftSide .fusion-text{
-    padding-right:0;
-}
-
-
-
-
-.siteHeader .bookNow-btn .btn{
-    font-size:0;
-}
-.siteHeader .bookNow-btn .btn span.fusion-button-text{
-    text-align: center;
-    display:none;
-}
-.siteHeader .bookNow-btn .btn span.fusion-button-text span{
-    display:none;
-}
-.siteHeader .bookNow-btn .btn::before{
-    content:'Book';
-    font-size:13px;
-    color:var(--primary-color) !important;
-}
-.siteHeader .bookNow-btn .btn {
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-    height:40px;
-}
-
-
-#MobileMenu{
-    height:calc(100% - 60px);
-    top:60px;
-}
-#MobileMenu .cus_menu ul li.menu-item a.menuLink{
-    font-size:20px;
-}
-
-#MobileMenu .cus_menu ul li.menu-item i.far{
-    font-size:17px;
-    top:27px;
-}
-#MobileMenu .mobile-menu-footer{
-    margin-bottom:10px;
-}
-#MobileMenu .mobile-menu-footer .yelp-txt{
-    font-size:30px;
-}
-#MobileMenu .phoneNumber{
-    font-family:var(--optimal);
-    font-weight:normal;
-    font-size:30px;
-    text-align: center;
-}
-#MobileMenu .phoneNumber h4 a{
-    color:var(--light-text-color);
-}
-.siteHeader .siteLogo{
-    width:130px;
-}
-.siteHeader{
-    padding-left:20px;
-    padding-right:20px;
-}
-.siteHeader .bookNow-btn{
-    margin-right:0px;
-}
-.heading.divider .secTitle::before{
-    margin-bottom:15px;
-}
-.heading .secTitle{
-    margin-bottom:20px;
-}
-.heading .secTitle p{
-    padding-left:0;
-    padding-right:0;
-}
-.makeReservation .massageTime .fusion-column-wrapper{
-    margin-left:0;
-    margin-right:0;
-    padding:80px 60px!important;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
-    margin:15px 0!important;
-}
-.makeReservation .entryContent.fusion-text h2{
-    letter-spacing: -1px;;
-}
-.common .entryContent h2{
-    font-size:var(--h1)!important;
-    line-height:normal!important;
-}
-.common .ContentArea, .common.row-reverse .ContentArea{
-    padding-left:0;
-}
-.common .ContentArea h5::before{
-    width:20px;
-    left:-30px;
-}
-.common .ContentArea .btnArea .btn{
-    min-width:auto;
-}
-.homeServices .wpsisac-slick-carousal.wpsisac-prodesign-11 .slick-arrow{
-    bottom:0;
-    top:auto;
-}
-.homeServices .wpsisac-slick .slick-arrow.slick-next {
-    right: calc(50% - 55px);        
-}
-.homeServices .wpsisac-slick .slick-arrow.slick-prev {
-    left: calc(50% - 55px);    
-}
-.fusion-body .homeServices .fusion-builder-row.fusion-row{
-    max-width:calc(100% - 50px)!important
-}    
-/* .homeServices{
-    margin-bottom:70px!important
-} */
-.custReviews .reviewSlider .review blockquote q{
-    padding-left:0;
-    padding-right:0;
-    padding-bottom:0;
-}
-.custReviews .reviewSlider .review blockquote p{
-    font-size:25px!important;        
-}
-.fusion-testimonials.classic .company-name{
-    font-size:40px;
-}
-.stars{
-    margin-bottom:0;
-}
-.membership{
-    min-height:550px;
-}
-.memContent .heading .secTitle{
-    margin-top:0;
-    margin-top:30px;
-}
-.fusion-body .memContent .fusion-builder-row.fusion-row{
-    max-width:calc(100% - 60px)!important
-}
-.ourHubLocations .snglLocAddress{
-    padding:40px 30px;
-}
-.fusion-body .ourHubLocations .fusion-row .fusion-layout-column.snglLocAddress{
-    text-align: left;
-}
-.ourHubLocations .snglLocAddress .fusion-text p{
-    font-size:16px;
-}
-.ourHubLocations .snglLocAddress .btn{
-    padding-left:50px!important;
-    padding-right:50px!important;
-}
-.ourHubLocations .snglLocAddress .btnArea{
-    margin-bottom:15px;
-}
-.fusion-body .instagramFeed .fusion-builder-row.fusion-row{
-    max-width:calc(100% - 60px)!important
-}
-.instagramFeed .elfsight-widget-instagram-feed{
-    width:auto!important;
-    margin-left:-30px;
-    margin-right:-30px;
-}
-.fusion-body .instagramFeed .fusion-builder-row.fusion-row .fusion-column-wrapper{
-    margin-left:0;
-    margin-right:0;
-}
-.heroBanner .bannerContent .fusion-column-wrapper{
-    padding-left:50px!important
-}
-
-.site-footer{
-    padding-top:70px;
-}
-.site-footer .siteLogo img{
-    max-width:160px;
-}
-.site-footer .footerNav .footerMenu ul li{
-    margin:5px;
-    font-size:16px;
-}
-.fusion-body .common .fusion-row .leftSide, .fusion-body .common .fusion-row .rightSide{
-    padding-bottom:0;
-}
-.homeServiceSlider .slick-arrow, .homeServiceSlider .slick-arrow:hover, .homeServiceSlider .slick-arrow:focus{
-    bottom:30px;
-}
-
-.row-reverse.common .ContentArea h5::before{
-    left:-30px;
-}
-.makeReservation .massageTime .fusion-column-wrapper{
-    border-top-right-radius: 120px;
-    border-bottom-left-radius: 120px;
-}
-
-.heroBanner.internalBanner .bannerContent .fusion-text br{
-    display:none 
-}
-
-.fusion-body .mainServices .fusion-row{
-    max-width:calc(100% - 30px) !important;
-}
-
-.heading.divider .secTitle::before{
-    height:40px;
-}
-
-.instagramFeed .heading .secTitle p{
-    margin-bottom:0;
-}
-.eapps-instagram-feed{
-    margin-top:20px;
-}
-
-.section{
-    padding-top:40px!important;
-    padding-bottom:40px!important;
-}
-#makeReservation.section{
-    padding-bottom:0!important
-}
-.makeReservation.serPage .massageTime .fusion-column-wrapper{
-    padding:60px 40px!important
-}
-.heroBanner .bannerContent .fusion-text h1{
-    font-size:35px!important;
-}
-
-.fusion-body .singleSerContent .fusion-column-wrapper{
-    margin-left:0;
-    margin-right:0;
-}
-
-.singleSerContent .fusion-text.secTitle h2{
-    margin-bottom:0;
-}
-
-.membenfits .allBenefits .snglBenefits .icon{
-    width:45px;
-}
-.membenfits .allBenefits .snglBenefits {   
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    margin:15px 0;
-}
-.membenfits .allBenefits .snglBenefits .descr h3{
-    margin-bottom:0;
-}
-.membenfits .allBenefits .snglBenefits .descr{
-    width:calc(100% - 60px);
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-.membenfits .allBenefits .snglBenefits .descr p{
-    margin-top:5px!important;
-    margin-bottom:0!important;
-    font-size:14px!important;
-}
-
-.entryContent p{
-    margin-top:15px!important;
-    margin-bottom:15px!important;
-}
-.membenfits .allBenefits .snglBenefits:nth-child(4) {
-    margin-bottom: 20px;
-  }
-  .entryContent p:last-child {
-    margin-bottom: 0 !important;
-  }
+	.allServices .allPages .snglPage .fusion-text.serDetails{
+        display:none;
+    }
+    .allServices .allPages .snglPage .fusion-text.servTitle{
+        top:auto;
+        left:45px;
+        bottom:45px;
+        transform:unset;
+        width:auto;
+    }
+    .allServices .allPages .snglPage .fusion-text.servTitle h1{
+        margin:0!important ;
+        text-align: left;
+    }
+    .allServices .allPages .snglPage .fusion-text.servTitle h1{
+        font-size:45px!important;
+        line-height:20px!important;
+    }
+    .allServices .allPages .snglPage .fusion-text.servTitle h1 strong{
+        font-size:20px;
+    }
 }
 
 
@@ -998,6 +437,12 @@ height:auto!important
         font-size:35px!important;
         line-height:35px!important;
     }
+
+    .allServices .allPages .snglPage .fusion-text.servTitle{
+        bottom:15px;
+        left:25px;
+    }
+    
     
     
 }
