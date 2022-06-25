@@ -244,7 +244,7 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 		</div>
 		<div class="rightSide contactDetails">
 			<div class="phoneNumber">
-				<h4><a href="tel:<?php echo $headerMenu['contact_no'];?>" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/phoneIcon.jpg" alt="Phone"> <span><?php echo $headerMenu['contact_no'];?></span></a></h4>
+				<h4><a href="tel:<?php echo $headerMenu['contact_no'];?>" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Images/phoneIcon.jpg" alt="Phone"> <span><?php echo $headerMenu['contact_no'];?></span></a></h4>
 			</div>
 		</div>
 	</div>
