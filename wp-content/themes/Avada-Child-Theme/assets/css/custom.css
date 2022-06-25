@@ -9,6 +9,7 @@ font-size: 100%;
 *{
 	margin: 0;
     padding: 0;
+    outline:none;
 }
 
 .fusion-text {
@@ -21,6 +22,7 @@ font-size: 100%;
     --didot: Didot;
     --CG: 'Cormorant Garamond', serif;
     --hel: Helvetica;
+    --helThin: Helvetica Thin;
     
     /*====Colors====*/
     --primary-color:#645c54;
@@ -299,6 +301,13 @@ color: #fff !important;
 }
 
 
+.btn.white,
+.btn.button-flat.white{
+    border-color:var(--white-color);
+    color:var(--white-color)!important;
+}
+
+
 
 .anotherBtn.fusion-button{
     border:none;
@@ -372,7 +381,7 @@ body.logged-in .siteHeader{
 }
 .siteHeader.sticky{
     background:var(--white-color);
-    box-shadow:0px 0px 10px rgba(0,0,0,0.15);
+    /* box-shadow:0px 0px 10px rgba(0,0,0,0.15); */
     border:none;
 }
 
@@ -939,6 +948,8 @@ body.logged-in .siteHeader{
 }
 .footerMenu .snglLocation{
     flex:1 1 auto;
+    height:auto;
+    margin-bottom:0!important;
 }
 
 .footerMenu .snglLocation h4{
@@ -982,7 +993,7 @@ body.logged-in .siteHeader{
 }
 
 .fusion-body .headerArea .mainLogoArea .fusion-text p{
-    margin-bottom:0;
+    margin-bottom:0!important;
 }
 
 
@@ -991,7 +1002,7 @@ body.logged-in .siteHeader{
     margin-bottom:60px!important;
 }
 
-.snglLocation .fusion-row{
+.gap .fusion-row{
     padding-left:30px;
     padding-right:30px;
 }
@@ -1095,10 +1106,94 @@ body.logged-in .siteHeader{
 }
 
 .allServices .mainLogoArea{
-    margin-top:300px!important;
+    margin-top:350px!important;
 }
 
 .allServices .allPages .snglPage .fusion-text.servTitle h1 strong{
     font-weight:normal;
     font-size:28px;
+}
+
+/* ===========Gift Card Page========== */
+
+
+.fusion-body .fusion-fullwidth.giftCardPage {
+    width: calc(100% - 200px) !important;
+    margin-bottom:100px!important;
+}
+
+.giftCardPage .locName .fusion-text h1{
+    color:var(--white-color);
+    font-size:100px;
+    line-height:85px!important;
+    margin-top:0;
+
+}
+.giftCardPage .locName .fusion-text h4{
+    font-size:50px;
+    color:var(--white-color);
+    font-family:var(--CG);
+    margin-bottom:-5px;
+}
+
+.fusion-body .giftCardPage .locSelection{
+    width:430px!important;    
+    margin-right:50px!important;
+    margin-bottom:50px!important;
+}
+
+.fusion-body .giftCardPage .locSelection .fusion-text{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.fusion-body .giftCardPage .locSelection .fusion-text:first-child{
+    border-bottom:1px solid var(--white-color)
+}
+
+.fusion-body .giftCardPage .locSelection .locMenu label.label{
+    font-size:20px;
+    color:var(--white-color);
+    text-transform: uppercase;
+    font-family:var(--sweetSans);
+    margin-bottom:10px;
+    display:block;
+
+}
+.fusion-body .giftCardPage .locSelection .locMenu br{
+    display:none;
+}
+.fusion-body .giftCardPage .locSelection .locMenu select{
+    width:100%;
+    background:url('../images/selectArrow.jpg')no-repeat #faf7f4;
+    height:60px;
+    border-radius:15px;
+    display:block;
+    font-size:22px;
+    color:#1f1f1f;
+    padding:15px;
+    -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+   font-family:var(--helThin);   
+   background-size:27px 14px;
+   background-position: calc(100% - 25px) center;
+   margin-bottom:40px;  
+}
+.fusion-body .giftCardPage .locSelection .locMenu select option{
+    font-family:var(--sweetSans);    
+}
+
+.fusion-body .giftCardPage .locSelection h2{
+    font-size:55px;
+    text-transform: uppercase;
+    line-height: 55px!important;
+    font-family:var(--sweetSans);
+    letter-spacing: -1px;
+    color:var(--white-color);
+    margin-bottom:15px;
+}
+.fusion-body .giftCardPage .locSelection p{
+    color:var(--white-color);
+    font-size: 14px;;
 }

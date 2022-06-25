@@ -55,20 +55,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php wp_footer(); ?>
 		</div>
 <script>
-jQuery(document).ready(function(){
-		jQuery(".mobile_toggle").click(function(){
-			jQuery("#MobileMenu").toggleClass("openMenu");
-		});
+// jQuery(document).ready(function(){
+// 		jQuery(".mobile_toggle").click(function(){
+// 			jQuery("#MobileMenu").toggleClass("openMenu");
+// 		});
 
-		jQuery(".overLay").click(function(){
-			jQuery("#MobileMenu").removeClass("openMenu");
-			jQuery("#locations").removeClass("openLocation");
-		});
+// 		jQuery(".overLay").click(function(){
+// 			jQuery("#MobileMenu").removeClass("openMenu");
+// 			jQuery("#locations").removeClass("openLocation");
+// 		});
 
-		jQuery(".closeMenu").click(function(){
-			jQuery("#MobileMenu").removeClass("openMenu");
-		});
+// 		jQuery(".closeMenu").click(function(){
+// 			jQuery("#MobileMenu").removeClass("openMenu");
+// 		});
 
+// 		});
+
+		jQuery(document).ready(function(){
+			jQuery(".mobile_toggle").click(function(){
+				jQuery(".siteHeader .navBar ul").slideToggle();
+			});	
 		});
 </script>
 

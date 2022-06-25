@@ -1,10 +1,9 @@
 @media screen and (max-width:1919px){
-    .siteHeader .fusion-row{
-        max-width:1440px;
+    .fusion-body .ownerBio .fusion-layout-column {
+        margin-right: 20px !important;
+        margin-top: 50px !important;
+        width: 700px !important;
     }
-    .homeServiceSlider .snglServiceSlide .contWrap {
-        padding: 60px 35px;
-      }
 }
 
 
@@ -12,875 +11,112 @@
 
 @media screen and (max-width:1599px){
 
-    .fusion-body .giftCard-steps .stepsImg{
-        width:55%!important;
-        right:-30px;
-    }
-    .giftCard-steps{
-        padding: 80px 0!important
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text h1{
-        font-size:60px
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text h1 img{
-        right: 98px;
-        top: 106px;
-        width: 140px !important;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text img{
-        width:200px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text a.btn{
-        width:300px;
-        font-size:30px;
-        padding:25px 54px;
-    }
-    #landingPage.heroBanner .bannerImg{        
-        right: -120px;        
-        top: 150px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text-1{
-        position: relative;
-        left:50px;
-    }
-    .massageFeature .fusion-row{
-        max-width:1300px!important;
-    }
-    .therapist .fusion-row{
-        max-width:1280px!important;
-    }
-    .therapist .header .rightShape{
-        right:0;
-        width:450px;
-        top:-30px;
-    }
-	#landingPage.heroBanner .bannerImg img{
-		max-width:80%;
-	}
-    .siteHeader .fusion-row{
-        max-width:1280px;
-    }
-    .siteHeader .siteLogo{
-        width:180px;
-    }
-
-
 
     .section{
-        padding-top:60px!important;
-        padding-bottom:60px!important;
+        padding-top:40px!important;
+        padding-bottom:40px!important;
     }
-    .heading.divider .secTitle::before{
-        margin-bottom:30px;
+    .fusion-body .fusion-layout-column.mainLogoArea{
+        width:300px!important
     }
-
-    .fusion-fullwidth{
-        padding-left:0!important;
-        padding-right:0!important;
+    .fusion-body .fusion-layout-column.allPages{
+        width:calc(100% - 300px) !important
     }
-
-    .fusion-body .fusion-builder-row.fusion-row{
-        max-width:calc(100% - 60px)!important;
+    .mainLogoArea .fusion-text h1{
+        font-size:50px!important;
+        line-height:20px!important;
+        margin-bottom:20px;
     }
-    
-    .fusion-body .shortContainer .fusion-builder-row.fusion-row,
-    .shortContainer .fusion-row{
-        max-width:1300px!important;
+    .mainLogoArea .fusion-text h1 strong{
+        font-size:20px;
     }
-    
-    .fusion-body .smallContainer .fusion-builder-row.fusion-row,
-    .smallContainer .fusion-row{
-        max-width:1200px!important;
+    .entryContent.sweetSans p{
+        font-size:10px;
     }
-    .fusion-body .tooSmallContainer .fusion-builder-row.fusion-row{
-        max-width:950px!important;
+    .mainLogoArea .fusion-text .btnArea{
+        margin-top:20px;
     }
-
-    .common .ContentArea{
-        padding-left:100px;
+    .btn, .btn.button-flat{
+        padding:12px 30px!important;
+        font-size:12px;
     }
-    .row-reverse.common .ContentArea{
-        padding-right:100px;
-    }
-    
-
-    .sideBar-socialLinks{
-        left:50px;
+    .allPages .snglPage .fusion-title .title-heading-left{
+        font-size:55px!important;
+        line-height:35px!important;;
     }
 
     .siteHeader .navBar ul li.menu-item{
-        margin:0 20px;
+        margin:0 10px;
     }
-    .siteHeader .navBar {
-        margin-left: 70px;
+    .siteHeader .navBar ul li.menu-item a.menuLink{
+        letter-spacing: 1px;;
     }
-    .sideBar-socialLinks{
-        margin-top:25px;
-    }
-    .sideBar-socialLinks ul li{
-        margin:0;
-    }
-    .sideBar-socialLinks ul li a img{
-        transform:scale(0.6);
-    }
-    .scrollDown p{
-        font-size:11px;
-        letter-spacing: 3px;
-    }
-    .scrollDown::before{
-        height:40px;
-    }
-    .scrollDown img{
-        max-width:14px;
-    }
-
-
-    /* .fusion-body .makeReservation.smallContainer .fusion-row{
-        max-width:calc(100% - 60px)!important
-    } */
-    .makeReservation .fusion-imageframe img{
-        margin-bottom:20px;
-    }
-    .makeReservation .massageTime .fusion-column-wrapper{
-        border-top-right-radius:160px;
-        border-bottom-left-radius:160px;
-        padding:80px 60px!important
-    }
-    .homeServices .wpsisac-slick-carousal.wpsisac-image-fit .wpsisac-img-wrap{
-        height:220px;
-    }
-    .homeServices .wpsisac-slick-carousal.wpsisac-prodesign-11 .slick-arrow{
-        top:calc(50% + 20px);
-    }
-    .fusion-body .homeServices .fusion-builder-row.fusion-row{
-        max-width:calc(100% - 150px)!important;
-    }
-    .homeServices .wpsisac-readmore a.wpsisac-slider-readmore{
-        padding:6px 40px;
-    }
-	.homeServices .slick-slide .wpsisac-slide-wrap{
-        border-top-right-radius: 130px;
-        border-bottom-left-radius: 130px;
-    }	
-    .homeServices .slick-slide .wpsisac-slider-content{
-        padding:50px 30px;
-    }
-    .homeServices .wpsisac-slider-short-content{
-        margin:15px 0;
-    }
-
-    .custReviews .heading .secTitle{
-        margin-bottom:0;
-    }
-
-    .membership{
-        min-height:650px;
-    }
-
-    .ourHubLocations .snglLocAddress {
-        padding: 50px 70px;        
-    }
-    .locAddress #wpsl-gmap{
-        min-height:550px;
-    }
-
-    .homeServiceSlider .snglServiceSlide .contWrap h3{
-        font-size:30px;
-    }
-    .homeServiceSlider .snglServiceSlide{
-        width:calc(100% - 20px) !important;
-        margin-left:10px;
-        margin-right:10px;
-    }
-
-    .mainServices .snglService .fusion-column-wrapper, .mainServices .snglService .fusion-column-inner-bg{
-        border-top-right-radius: 120px;
-        border-bottom-left-radius: 120px;
-        padding-left:15px!important;
-        padding-right:15px!important;
-    }
-    .mainServices .snglService .btn.btn-primary{
-        padding-left:30px!important;
-        padding-right:30px!important;
-    }
-    .mainServices .snglService .fusion-text p{
-        font-size:15px;
-    }
-    .makeReservation.serPage .massageTime .fusion-column-wrapper {
-        padding-right: 50px !important;
-        padding-left: 50px !important;
-    }
-    .fusion-body .mainServices .fusion-row{
-        max-width:100%!important;
-    }
-    .fusion-body .mainServices .fusion-row .fusion-column-wrapper{
-        margin-left:0;
+    .rightSide.contactDetails{
         margin-right:0;
     }
-	#locAddress .fusion-google-map {
-	  max-height: 550px;
-	}
+    .fusion-body .fusion-layout-column.mainLogoArea{
+        width:100%!important;
+        margin-top:30px!important;
+        margin-bottom:50px!important;
+    }
+    .fusion-body .fusion-layout-column.allPages{
+        width:100%!important;
+    }
 
 }
 
 
 @media screen and (max-width:1439px){
     
-	#LocationAddress{
-        padding-bottom:80px;
-        padding-top:80px;
+	.fusion-body .ownerBio .fusion-layout-column{
+        width:600px!important;;
     }
-    .heroBanner .bannerContent .fusion-text-1{
-        width:auto!important;
+    .fusion-body .ownerBio .fusion-text h3{
+        line-height:30px!important;
     }
 
-    .siteHeader{
-        padding-left:30px;
-        padding-right:30px;
+    .fusion-body .ownerBio .fusion-text h6{
+        font-size:20px
     }
-    body.page-template-100-width_new-page .sideBar-socialLinks{
-        left:30px;
+    .fusion-body .ownerBio .fusion-text p{
+        font-size:11px;
     }
-    .siteHeader .bookNow-btn{
-        margin-right:-30px;
-    }
-    .siteHeader .bookNow-btn .btn{
-        padding-right:60px!important;
-        padding-left:60px!important;
-    }
-    .scrollDown::before{
-        margin-left:9px;
-    }
-    .socialIcons{
-        margin-left:-5px;
-    }
-    .fusion-body .makeReservation.smallContainer .fusion-builder-row.fusion-row, .smallContainer .fusion-row{
-        max-width:calc(100% - 60px)!important
-    }
-    .ourHubLocations .snglLocAddress .fusion-text p{
-        font-size:14px;
-    }
-	#locAddress .fusion-google-map {
-	  max-height: 450px;
-	}
 }
 
 @media screen and (max-width:1365px){
 
-    :root{
-        --h1:45px;
-        --h2:35px;
-        --h3:30px;
-        --h4:20px;
-        --h5:16px;
-    }
-.has_child .MobileSubMenu{
-    left:0;
-    transform: unset;
-}
-.MobileSubMenu::before{
-    left:20px;
-    transform:unset;
-}
-.shortContainer .fusion-row{
-    max-width:1200px!important;
-}	
-/* .socialIcons{margin-left: 79px;} */
-.rightSide.contactDetails .phoneNumber h4 a, .rightSide.contactDetails .phoneNumber h4 i{margin-right: 8px;}
-/* .socialIcons{margin-left: 83px; margin-top: 13px;} */
-
-.home .siteHeader .siteLogo a img{max-width: 220px!important;}
-.entryContent p a.readMore.more{width: 49%;}
-.fusion-body .featServices .snglServices .fusion-column-wrapper{padding: 13px 35px !important;}
-.fusion-body .featServices .fusion-text h2{font-size: 28px;}
-.site-footer{padding: 40px;padding-top: 40px;padding-top: 100px;}
-
- #gift-card-banner.heroBanner .bannerImg{
-    width:580px!important;
-    bottom:-125px;
-    right:-50px;
-    bottom:-125px;
-}
-#gift-card-banner.heroBanner{
-    min-height:555px!important;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text-1{
-    padding-top:80px;
-}
-.fusion-body .giftCard-steps .stepsImg{
-    width:52%!important;
-}
-   
-    #lanPageInfo .leftShape{
-        width:250px!important
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text h1{
-        font-size:50px;
-    }
-    #landingPage.heroBanner .bannerImg img{
-        width:85%;
-    }
-    #landingPage.heroBanner .bannerImg{
-        right:-180px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text a.btn{
-        font-size:25px;
-        width:280px;
-        padding:18px 45px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text h1 img{
-        right: 78px;
-        top: 76px;    
-    }
-    .massageFeature .fusion-row{
-        max-width:1170px!important;
-    }
-
-    .massageFeature .sngMassageFeat .fusion-text img{
-        left:0;
-    }
-    .massageFeature .sngMassageFeat .fusion-text{
-        padding-left:80px; 
-    }
-    .therapist .sngTherapist .imgArea{
-        width:100%;
-        position: relative;
-        left:0;
-        text-align: center;
-        margin-top:-50px;
-        transform: unset;
-    }
-    .therapist .sngTherapist .fusion-text{
-        padding:40px;
-        text-align: center;
-    }
-	#landingPage.heroBanner .bannerImg img{
-		max-width:75%;
-	}
-    .siteHeader .navBar ul li{margin-right: 30px;}
-    .heroBanner .bannerContent .fusion-column-wrapper{
-        padding-left:80px!important;
-    }
-    .heroBanner .bannerContent .fusion-text h1{
-        font-size:50px;
-    }
-
-
-    .makeReservation .massageTime .fusion-column-wrapper{
-        margin:15px;
-    }
-    .common .entryContent h2{
-        font-size:var(--h1);
-    }
-
-    .homeServices .wpsisac-readmore{
-        margin-bottom:15px;
-    }
-    .homeServices .wpsisac-slick-carousal.wpsisac-prodesign-11 .wpsisac-slick-image-slide{
-        padding-right:15px;
-        padding-left:15px;
-    }
-    .fusion-testimonials.classic .company-name{
-        font-size:50px;
-    }
-    .fusion-body .ourHubLocations .fusion-builder-row.fusion-row{
-        flex-wrap:wrap;
-        align-items: unset;
-    }
-    .siteHeader .navBar ul li.menu-item{
-        margin:0 13px;
-    }
     
-    .homeServiceSlider .snglServiceSlide .contWrap h3{
-        font-size:32px;
-    }
-    .homeServiceSlider .snglServiceSlide{
-        width:calc(100% - 40px) !important;
-        margin-left:20px;
-        margin-right:20px;
-    }
-
-    .homeServices .slick-slide{
-        padding-bottom:0;
-    }
-    .homeServices .slick-slide::after,
-    .homeServices .slick-slide::before{
-        display:none;
-    }
-    .servAllService .fusion-text{
-        width:calc(50% - 40px);
-        margin:20px;
-    }
 }
 
 
 @media screen and (max-width:1279px){
-    .shortContainer .fusion-row{
-        max-width:950px!important;
-    }
-    #gift-card-banner.heroBanner .bannerContent .fusion-text-1{
-        padding-top:0;
-        padding-left:35px;
-        padding-right:35px;
-    }
-    #gift-card-banner.heroBanner .bannerImg{
-        width:380px!important;
-        right:70px;
-        bottom:-235px;
-    }  
-    #gift-card-banner.heroBanner .bannerContent  {
-        height:auto;
-    }
-    #gift-card-banner.heroBanner{
-        min-height:500px!important;
-    }
-    .fusion-body .giftCard-steps .stepsImg{
-        display:none!important;
-    }
-    .fusion-body .giftCard-steps .steps{
-        width:100%!important;
-        padding-right:0
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text-1{
-        left:0;
-    }
-    #landingPage.heroBanner .bannerImg img{
-        width:90%;
-		max-width:none;
-    }
-    #landingPage.heroBanner .bannerImg{
-        width:60%!important;
-        right:-80px;
-        top:100px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text-1{
-        padding-top:100px;
-    }
-    #landingPage.heroBanner .bannerContent .fusion-text-1{
-        padding-bottom:40px;
-    }
-    #patternBg.featServices.services{
-        padding-bottom:50px!important;
-    }
-    .massageFeature .fusion-row{
-        max-width:950px!important
-    }
-    .massageFeature .sngMassageFeat .fusion-text{
-        padding-left:0;
-    }
-    .massageFeature .sngMassageFeat .fusion-text img{
-        position: relative;
-    }
-    .massageFeature .sngMassageFeat .fusion-text{
-        text-align: center;
-    }
-    .therapist .sngTherapist .imgArea img{
-        transform: scale(1);
-    }
-    .therapist .sngTherapist .imgArea{
-        width:200px;
-        margin:auto;
-        margin-bottom:-50px;
-        display:block;
-        top:-50px;
-    }
-    .therapist .header{
-        margin-bottom:55px!important;
-    }
-    .therapist{
-        padding-bottom:30px!important;
-    }
-    .Newpage .fortheimage{display: none!important;}
-    .Newpage .banContent.leftSide{padding-left: 12px;}
-    #about-us .verticleMellow p::before{display: none;}
-
-    /**/
-    .siteHeader .navBar ul li{margin-right: 22px;}
-    .siteHeader .navBar ul li a{font-size: 16px;}
-    .siteHeader .siteLogo{left: 46%; top: 50%; width: 150px;}
-    .rightSide.contactDetails .socialIcons ul li{margin-right: 16px;}
-    .rightSide.contactDetails .phoneNumber{margin-left: 10px;margin-right: 8px;}
-    .siteHeader .bookNow-btn a{font-size: 15px;padding: 6px 11px;}
-
-    .heroBanner.memberBanner .member-text p{font-size: 16px;}
-    .heroBanner.memberBanner .member-text h2{font-size: 48px;}
-    .popular-demand h3{font-size: 30px;}
-    .popular-demand .memberbox{max-width: calc(50% - 40px) !important;}
-    .siteHeader .navBar ul li a{font-size: 15px!important;}
-    .siteHeader .navBar ul li {
-        margin-right: 20px;
-    }
     
-
-
-
-    .careenBanner{
-        min-height:340px;
-    }
-    .careenBanner .fusion-title{
-        bottom:-160px;
-    }
-    .openPositon h2,
-    .careenBanner .fusion-title .title-heading-left{
-        font-size:45px!important;
-    }
-    .openPositon{
-        min-height:140px;
-    }
-    .aboutCareer{
-        padding-top:60px!important;
-        padding-bottom:30px!important;
-    }
-
-    .fusion-body .aboutCareer .commonText{
-        width:100%!important;
-    }
-    .aboutCareer .commonText .fusion-text br{
-        display:none;
-    }
-    .openPositon .fusion-text{
-        display:block;
-        text-align: center;
-    }
-    .openPositon{
-        padding-top:30px!important;
-        padding-bottom:40px!important;
-    }
-    .openPositon .fusion-text h2{
-        margin-bottom:10px;
-    }
-    .fusion-body .aboutCareer.shortContainer .fusion-row{
-        padding-left:0;
-        padding-right:0;
-    }
-    #serviceforpage .snglServices .fusion-column-wrapper .forServices{
-        padding:16px 30px;
-    }
-
-    .storeLocations #wpsl-gmap{
-        width:calc(100% - 150px);
-    }
-    #wpsl-result-list{
-        width:calc(40% - 85px);
-    }
-
-    #wpsl-stores ul{
-        max-height:600px;        
-    }
-    .storeLocations #wpsl-search-input{
-        height:50px;
-    }
-    .storeLocations .wpsl-search-btn-wrap {        
-        bottom: 14px;
-        right: 0;
-    }
-    #wpsl-stores ul li .wpsl-store-location p.wpsl-contact-details a.booking_url:focus, #wpsl-stores ul li .wpsl-store-location p.wpsl-contact-details a.site_url{
-        display:block;
-    }
-    .sideBar-socialLinks{
-        left:30px;
-    }
-    #wpsl-result-list .wpsl-input::after{
-        bottom:42px;
-    }
-    #location-search{
-        width:100%;
-    }
-
-    .fusion-body #storeLocations .fusion-builder-row.fusion-row{
-        max-width:100%!important;
+    .allPages .fusion-column-wrapper .fusion-builder-row{
+        margin-left: calc(-4% / 2 ) !important;
+        margin-right: calc(-4% / 1) !important;
     }
 
 
-    /*============New Design 1.2===========*/
-    .siteHeader .navBar{
-        display:none
-    }
-    .siteHeader .siteLogo img{
-        width:140px;
-    }
-    .siteHeader .bookNow-btn .btn{
-        height:40px;
-    }
-    .siteHeader .bookNow-btn .btn {
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-    }
-    .rightSide.contactDetails .phoneNumber{
-        /* display:none; */
-    }
-    #bars{
-        display:block;
-        height:90px;
-        width:40px;
-        /* box-shadow: inset 0px 0px 0px 1px var(--light-text-color); */
-        display:flex!important;
-        align-items: center;  
-        padding:0px; 
-        cursor: pointer;     
-    }
-    #bars div{
-        width:100%;
-    }
-    #bars .bar{
-        float:left;
-        width:100%;
-        height:2px;
-        background:var(--light-text-color);
-        margin:5px 0;
-    }
-    .makeReservation .massageTime .fusion-column-wrapper{
-        border-top-right-radius: 120px;
-        border-bottom-left-radius: 120px;
-        padding:60px 40px !important
-    }
-    
-    .entryContent h2{
-        margin-bottom:15px;
-        line-height:1em!important
-    }
-    .heading .secTitle p{
-        line-height:1.8em!important;
-        padding-left:30px;
-        padding-right:30px;
-    }
-    .common .ContentArea{
-        padding-left:80px;
-        padding-right:50px;
-    }
-    .common.row-reverse .ContentArea{
-        padding-left:50px;
-        padding-right:80px;
-    }
-
-    .homeServices .fusion-text.desktop,
-    .homeServices .fusion-text.mobile{
-        display:none
-    }
-    .homeServices .fusion-text.ipad{
-        display:block
-    }
-    .homeServices .slick-slide::before,
-    .homeServices .slick-slide::after{
-        display:none;
-    }
-    .homeServices .wpsisac-slick-carousal.wpsisac-prodesign-11 .wpsisac-slick-image-slide{
-        padding-bottom:10px;
-    }
-    .entryContent .btnArea a{
-        font-size:13px;
-    }
-    .membership{
-        min-height:500px;
-    }
-    .fusion-body .memContent .fusion-builder-row.fusion-row{
-        max-width:750px!important;
-        margin-top:-150px!important;
-    }
-    .ourHubLocations .snglLocAddress .btn{
-        padding-left:30px!important;
-        padding-right:30px!important
-    }
-    .common .entryContent br{
-        display:none;
-    }
-
-
-    #MobileMenu{        
-        position: fixed;
-        z-index: 999;
-        left:0;
-        top:90px;
-        height:calc(100% - 90px);
-        width:100%;
-        background:#af8563;
-        overflow: auto;
-    }
-
-    #MobileMenu .cus_menu ul{
-        list-style:none;
-        padding:0;
-        margin:0;
-    }
-    #MobileMenu .cus_menu ul li.menu-item{        
-        font-family:var(--mont);
-        font-weight:var(--bold);       
-        position: relative;
-        border-bottom:1px solid rgba(255,255,255,0.18);
-        float:left;
-        width:100%;
-        color:var(--light-text-color);
-
-    }
-    #MobileMenu .cus_menu ul li.menu-item i.far{
-        position: absolute;
-        right:20px;
-        top:22px;
-        font-size:18px;
-        font-weight:100;
-    }
-    #MobileMenu .cus_menu ul li.menu-item a.menuLink{
-        color:var(--light-text-color);
-        display:block;
-        float:left;
-        width:100%;
-        padding:14px 20px;
-        text-align: center; 
-        font-size:20px;
-        font-weight: 600;     
-    }
-    #MobileMenu .cus_menu ul li.menu-item ul.subMenu{
-        display:none;
-    }
-    #MobileMenu .cus_menu ul li.menu-item:last-child{
-        border-bottom:none;
-    }
-
-    #MobileMenu .cus_menu ul li.menu-item  ul.submenus li{
-        font-size:18px;
-        font-weight:var(--regular);
-        color:var(--light-text-color);
-        /*opacity: 1;*/
-        text-align: center;
-        float:left;
-        width:100%;
-        padding:8px 0;
-    } 
-    #MobileMenu .cus_menu ul li.menu-item  ul.submenus li a{
-        color:var(--light-text-color)!important;
-         opacity: 1!important;
-    }
-    #MobileMenu .cus_menu ul li.menu-item  ul.submenus li:hover a{
-        color:var(--light-text-color);
-      /*  opacity: 1;*/
-    }   
-    #MobileMenu .cus_menu ul li.menu-item .singleSubLoc  ul{
-        float:left;
-        width:100%;
-        margin-bottom:30px;
-    }
-    #MobileMenu .cus_menu ul li.menu-item  ul.submenus li small{
-        font-size:10px;
-        text-transform:uppercase;
-        letter-spacing: 3px;
-        position: relative;
-        top:-9px;
-        opacity: 0.4;
-        font-weight:var(--semibold)
-    }
-    #MobileMenu .singleSubLoc{
-        float:left;
-        width:100%;
-    }
-    #MobileMenu .singleSubLoc h2.locTitle{
-        color:var(--light-text-color);
+    .fusion-body .ownerBio .fusion-text h3{
         font-size:25px;
-        text-align: center;
+        line-height:28px!important;
+        letter-spacing: -1px!important;;
     }
-    #MobileMenu .mobile-menu-footer{
-        float:left;
-        width:100%;
-        text-align: center;        
+    .fusion-body .ownerBio .fusion-layout-column{
+        width:420px!important;
+        margin-top:30px!important;
+        width:420px!important;
     }
-    #MobileMenu .mobile-menu-footer a img{
-        width:60px;
+    .commonSection .fusion-text{
+        max-width: 80%;
+        margin-left:auto;
+        margin-right:auto;
     }
-    #MobileMenu .mobile-menu-footer .yelp-txt{
-        color:var(--light-text-color);
-        font-size:35px;
-        font-family:var(--optimal);
-        margin-top:10px;
+    .site-footer{
+        max-width:950px;
     }
-    #MobileMenu .mobile-menu-footer .yelp-txt i{
-        font-size:18px;
-    }
-
-    .mainServices.ipad{
-        display:block!important;
-    }
-    .mainServices.desktop{
-        display:none!important;
-    }
-
-    .mainServices.ipad .servAllService .slick-list{
-        padding-left:0!important;
-        padding-right:0!important;
-        padding-bottom:50px!important;
-    }
-    .servAllService .fusion-text{
-        margin:0 20px;
-        width:calc(100% - 40px)!important;
-    }
-    .servAllService .slick-slider .slick-dots{
-        float:left;
-        width:100%;
-        text-align: center;
-        font-size:0;
-        list-style:none;
-        padding:0;
-        margin:0;        
-    }
-    .servAllService .slick-slider .slick-dots li{
-        display:inline-block;
-        margin:0 3px
-    }
-    .servAllService .slick-slider .slick-dots li button{
-        width:15px;
-        height:15px;
-        border-radius:100%;
-        background:var(--footer-bg-color);
-        border:none;
-        box-shadow:inset 0px 0px 0px 2px var(--body-bg-color);
-        font-size: 0;
-        cursor: pointer;
-    }
-    .servAllService .slick-slider .slick-dots li.slick-active button{
-        border:1px solid var(--footer-bg-color);
-    }
-    .membenfits .allBenefits .snglBenefits .icon{
-        width:55px;
-        margin-right:0;
-    }
-    .membenfits .allBenefits .snglBenefits .descr{
-        width:calc(100% - 75px)
-    }
-    .membenfits .allBenefits .snglBenefits{
-        margin:10px 0;
-    }
-    .membenfits .allBenefits .snglBenefits .descr h3{
-        font-size:25px;
-    }
-    .membenfits.section{
-        padding-bottom:0!important
-    }
-    .getTouch .imageArea{
-        padding-left:50px;
-    }
-    /*AQI*/
-    .siteHeader .bookNow-btn {
-        margin-right: 0;
-    }
-    .siteHeader .leftSide {
-      transform: translate(-50% , -50%);
-      position: absolute;
-      left: 50%;
-      top: 50%;
-    }
-    .rightSide.contactDetails .phoneNumber h4{
-        display: none;
-    }
-    .siteHeader.sticky{
-        background: #bc9371;
-    }
-    .siteHeader{
-         background: #bc9371;
-    }
-    .phoneNumber {
-        text-align: center;
-    }
-
-    .phoneNumber h4 a{
-        color: var(--light-text-color);
+    .footerMenu .snglLocation{
+        padding:0 15px
     }
 }
 
@@ -889,796 +125,97 @@
 
 @media screen and (max-width:1023px){
 
-    .rightSide.contactDetails .phoneNumber h4{float: right;}
-    .rightSide.contactDetails .phoneNumber h4 i{font-size: 43px;color: #cbd8d1!important;}
-    .mainLocHeader #mobileMenu{display: block!important; top: 0;
-opacity: 1;
-pointer-events: initial;
-margin-top: 130px;}
-    .mainLocHeader .siteHeader.full{display: none;}
-    .mainLocHeader #mobileMenu div {position: fixed;left: 0; width: 100%; height: calc(100% - 130px); background: #ffbba6; margin-top: 80px; display: flex; align-items: center;
-justify-content: center; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;
-opacity: 0; pointer-events: none; }
-    .mainLocHeader #mobileMenu div ul{padding: 0; margin: 0;}
-    .mainLocHeader #mobileMenu div ul li{float: left; width: 100%; text-align: center; font-size: 0; margin: 5px 0;}
-    .mainLocHeader #mobileMenu ul li a { display: inline-block; font-size: 45px; color: #15375b; text-transform: uppercase; font-weight: 700; }
-
-/*=================*/
-
-
-.topPart{display: block!important;}
-
-.fusion-body .fusion-row{
-        max-width:100%!important;
+    .siteHeader{
+        height:60px;
+        position: fixed;
+        background:#fff;
+        padding-left:25px;
+        padding-right:25px;
     }
-    
-    .internalPage .banContent .fusion-text h3{
-        font-size:35px!important
-    }
-       
-    .secTitle.fusion-title .title-heading-left{
-        font-size:40px!important
-    }
-    .membership .fusion-text h6{
-        font-size:35px!important
-    }
-    .membership .bttn.fusion-button{
-        padding-left:10px!important;
-        padding-right:10px!important;
+
+    .rightSide.contactDetails{
         width:100%;
     }
-    .heroBanner{
-        margin-bottom:50px!important;
-    }
-    .bookNow .rightSide.relax h4{
-        font-size:25px!important
-    }
-    .fusion-body .featServices .fusion-text h2{
-        font-size:35px!important
-    }
-    .fusion-body .featServices .snglServices .fusion-column-wrapper{
-        padding:35px 25px !important;
-    }
-    .site-footer .footerMenu ul li{
-        margin:0 15px;
-    }
-    .locationAddress{
-        min-height:320px;
-    }
-    .locationAddress .fusion-text h4{
-        font-size:15px!important
-    }
-    .locationAddress .fusion-text h2{
-        font-size:30px!important
-    }
-    .heroBanner .bannerContent .fusion-text h3{
-        font-size:30px!important
-    }
-    .meet-us::before,
-    .fusion-body .meet-us .description{
-        width:300px!important;
-    }
-    .meet-us .description .fusion-text h3{
-        font-size: 22px !important;
-        line-height: 1.5em !important;
-    }
-    .allOwnPro{
-        margin-top:50px!important
-    }
-    .allOwnPro .fusion-row .leftSide{
-        width:233px!important
-    }
-    .allOwnPro .fusion-row .rightSide{
-        left:270px;
-    }
-    .allOwnPro .fusion-row:nth-child(2n) .rightSide{
-        right:270px;
-    }
-    .allOwnPro .fusion-row .rightSide .fusion-column-wrapper{
-        align-items: unset;
-    }
-    .meet-us{
-        margin-top:30px!important
-    }
-    
-    .allServices .sngServices .fusion-column-wrapper{
-        padding-bottom:100px!important
-    }
-    .allServices .sngServices .bttn.fusion-button{
-        bottom:30px
-    }
-    .internalPage.services .banContent.last{
-        width:50%!important;
-        position: relative;
-        padding-left:0;
-    }
-    .internalPage.services .banContent.last  .fusion-column-wrapper{
-        margin:0!important;
-        padding:0 20px!important;
-        margin-top:35px!important;
-    }
-    .internalPage.services .banContent.first,
-    .internalPage.services .banImg.center{
-        width:50%!important
-    }
-     .internalPage.services .banContent.first{
-         padding-right:35px;
-     }
-    .internalPage.services .banImg.center{
-        position: absolute;
-        left:0;
-        top:0;
-        z-index:-1
-    }
-    .internalPage.services .banContent.last .fusion-column-wrapper{
-        margin-top:0!important;
-    }
-    .internalPage.services .pageTitle.fusion-title .title-heading-left{
-        color:#fff;
-    }
-    .fusion-body .prcingTable .price{
-        width:100%!important;
-        padding-right:0;
-    }
-    .fusion-body .prcingTable  .queBanner{
-        width:100%!important;
-        margin-top:30px!important
-    }
-    .prcingTable .queBanner .fusion-column-wrapper{
-        padding:80px 0!important
-    }
-    .prcingTable .queBanner .fusion-text h2{
-        font-size:60px!important
-    }
-    .internalPage .banContent .fusion-text h3{
-        font-size:26px!important
-    }
-    .fusion-body .session .fusion-row{
-        max-width:95%!important;
-    }
-    .session .snglSession .fusion-title .title-heading-left,
-    #getReady.session .snglReady .fusion-title .title-heading-left{
-        font-size:30px!important
-    }
-    .session .snglSession .fusion-text.sessDescr{
-        padding:30px 35px;
-    }
-    .fusion-body .session .snglSession{
-        width:75%!important
-    }
-    .fusion-body .featServices .snglServices{
-        width:100%!important
-    }
-    .fusion-body .featServices .snglServices .fusion-column-wrapper{
-        min-height:auto!important;
-    }
-    .fusion-body #massageStyle.internalPage .fusion-row{
-        max-width:85%!important;
-    }
-    .pageTitle.fusion-title .title-heading-left{
-        font-size:45px!important
-    }
-    .massages.prcingTable .priceTitle.fusion-title .title-heading-left{
-        font-size:45px!important;
-        padding-left:0!important;
-    }
-    .prcingTable .menuTitle h2{
-        font-size:35px!important
-    }
-    #massages.prcingTable{
-        margin-bottom:0!important
-    }
-    .fusion-body .literally.fusion-layout-column{
-        width:100%!important
-    }
-    .literally .entryContent h4{
-        font-size:35px!important
-    }
-    .massages.prcingTable .priceTitle.fusion-title .title-heading-left{
-        font-size:35px!important;
-    }
-    .massages{
-        margin-top:50px!important;
-    }
-    #mobileMenu{
-        float:left;
-        background:#a9674a;
-        width:100%;
-        padding:50px 0;
-    }
-    /* #mobileMenu::after{
-        position: absolute;
-        content:'';
-        width:100%;
-        height:100%;
-        left:0;
-        top:0;
-        background:url('../images/pattern-white.svg') repeat;
-        background-size:700px;
-        pointer-events: none;
-        z-index: -1;
-    } */
-    #mobileMenu ul{
+    .siteHeader .navBar{
         margin:0;
-        list-style: none;
-        padding:0;;
     }
-    #mobileMenu ul li{
-        float:left;
+    .rightSide.contactDetails .phoneNumber{
+        float:none;
+        margin:auto;
+    }
+    .siteHeader .mobile_toggle{
+        width:25px;
+    }
+    .siteHeader .mobile_toggle .bar{
+        margin:3px 0;
+        height:1px;
+    }
+
+    .siteHeader .navBar ul{  
+        display:none;      
+        position: fixed;
+        width: 100%;
+        background: #f7f7f7;
+        top: 60px;
+        left:0;
+    }
+    .siteHeader .navBar ul li.menu-item{
         width:100%;
+        margin:0;
+    }
+    .siteHeader .navBar ul li.menu-item a.menuLink{
+        padding:10px 25px;
+    }
+    .siteHeader .mobile_toggle{
+        left:25px;
+    }
+
+    .fusion-body .fusion-fullwidth{
+        width:100% !important
+    }
+
+    .fusion-body #heroArea.fusion-fullwidth{
+        padding-bottom:0!important; ;
+    }
+
+    .fusion-body .allPages.fusion-fullwidth{
+        width:100%!important;
+    }
+    .fusion-body .allPages.fusion-fullwidth .fusion-column-wrapper{
+        margin-left:15px!important;
+        margin-right:15px!important;
+    }
+
+    .fusion-body .allPages .snglPage{
+        width:100%!important;
+        margin:0!important;
+        height:350px;
+        margin-bottom:10px!important;
+    }
+    .allPages .snglPage .fusion-title .title-heading-left{
         text-align: center;
     }
-    #mobileMenu ul li a{
-        color:#fff;
-        font-size:20px;
-        font-weight:700;
-        font-family:'Poppins', sans-serif;
-        padding:10px 0;
-        display:block;
-    }
-    
-   /* .siteHeader .siteLogo img{
-        opacity: 0;
-    }*/
-    
-    /* .rightSide.contactDetails .phoneNumber h4 a span{display: none;} */
-    .siteHeader .sameMenu ul{display:none;}
-   
-
-    
-
-    .siteHeader.full .navBar ul{display: none;}
-    .heroBanner{
+    .allPages .bottomArrow{
         margin-top:0!important;
     }
-
-    .heroBanner .bannerContent .fusion-text-1{
-        max-width:600px;
+    
+    .fusion-body .ownerBio .fusion-layout-column{
+        margin-top:80px!important
     }
-    .heroBanner .bannerContent .fusion-text h1{
-        font-size:45px!important
+    .sameHeight{
+        margin-bottom:10px!important;
     }
-
-    .heroBanner{
-        margin-bottom:0!important;
-    }
-    .locationContent.fusion-layout-column{
-        max-width:calc(100% - 80px) !important;
-        margin-left:40px!important
-    }
-    .locationContent .fusion-column-wrapper .fusion-builder-row.fusion-row{
-        padding-left:5%!important;
-        padding-right:5%!important
-    }
-    .moreQuestion.section .fusion-row{
-        padding:20px 70px !important;
+    .copyright{
+        margin-top:50px;
     }
     .site-footer{
-        margin-top:35px;
+        padding-bottom:100px;
     }
-    .site-footer .leftSide{
-        width:100%!important;
-        padding:0 30px;
-        text-align: center;
-        display:none;
-    }
-    .site-footer .rightSide{
-        padding:0;
-        width:100%;
-    }
-    .site-footer .footerNav .col-6{
-        width:100%;
+    .footerMenu{
+        flex-wrap: wrap;
         text-align: center;
     }
-    .site-footer .footerNav .footerMenu ul li{
-        float:none;
-        display:inline-block;
-        width:auto;
-        padding:0 20px        
-    }
-    .site-footer  .footerNav #text-2 {
-        margin-top:30px;
-    }
-    .site-footer  .footerNav #text-2 .footerMenu ul li a{
-        font-size:0;
-    }
-    .site-footer .footerNav #text-2 .footerMenu ul li a i{
-        font-size:20px;
-    }
-    .site-footer .widget .textwidget .copyrights p{
-        text-align: center;
-        margin-bottom:0!important;
-    }
-    .companyBoi p{
-        font-size:15px;
-        line-height:1.6em;
-    }
-    .internalPage.services .banContent.last{
-        right:-20px;
-    }
-
     
-
-
-    /*=========stt*/
-    #MobileMenu.openMenu .overLay{opacity: 1;
-pointer-events: inherit;}
-
-
-/* .cus_menu {
-    position: fixed;
-    width: 280px;
-    top: 0;
-    height: 100%;
-    background: #25303b;
-    z-index: 99999;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    margin-top: 0px;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    z-index: 999999;
-    left: -280px;
-    display: block;
-    padding: 0px;
-}
-.cus_menu {
-    float: left;
-    padding-top: 11px;
-    padding-left: 20px;
-}
-.overLay {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(255, 255, 255, 0.47);
-    height: 100%;
-    opacity: 0;
-    pointer-events: none;
-    z-index: 99999;
-    display: block;
-    opacity: 0;
-}
-.mob-logo a {
-    float: left;
-    width: 100%;
-    display: block;
-}
-.mob-logo {
-    float: left;
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-}
-.cus_menu ul {width: 100%; float: left; margin-top: 35px;}
-.cus_menu ul li{text-align: center; border-top: 1px solid #242f39; }
-
-.cus_menu ul li:last-child{border-bottom:  1px solid #242f39;}
-.cus_menu ul li a{padding: 20px 0px; width: 100%; color: #ffffff; font-size: 18px; font-family: 'ChelthmITC Bk BT'; text-align: center; text-decoration: none;display: inline-block;}
-.cus_menu ul li:hover a{color: #acd6db;}
-.mobile-menu-footer{text-align: center;
-width: 100%;
-float: left;
-margin-top: 35px;}
-
-.mobile-menu-footer img{max-width: 50px; }
-.mobile-menu-footer .yelp-txt span{font-family: 'Circular Std Book' !important; font-size: 10px; color: #ffffff;}
-.mobile-menu-footer .yelp-txt .star i{color: #fecd04; font-size: 12px; padding: 0px 5px;} */
-
-    /*=========stt*/
-
-
-/*=================*/
-/* .cus_menu ul li ul.submenus{
-    margin-top:0;
-}
-.cus_menu ul li a{
-    padding:10px 0;
-}
-.cus_menu ul li{
-    position:relative;
-    float: left;
-    width: 100%;
-}
-.cus_menu ul li i{
-    color:#fff;
-    position:absolute;
-    right:25px;
-    top:15px;
-}
-.cus_menu ul li ul.submenus li{
-    border:none;
-}
-.cus_menu ul li ul.submenus li a{
-    font-size:14px;
-    font-family:"Circular Std Book";
-    padding:5px 0;
-    color:#3e4d44;
-    border-bottom:1px solid #eee;
-}
-.cus_menu ul li ul.submenus{
-    background:#fff;
-    padding:12px 20px;
-    list-style:none;
-    display:none;
-}
-.cus_menu ul li ul.submenus li:last-child a{
-    border-bottom:none;
-} */
-#gift-card-banner.heroBanner .bannerContent{
-    margin-top:0!important;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text-1{
-    padding-right:0;
-    padding-left:0;
-    text-align: center;
-}
-#gift-card-banner.heroBanner .bannerContent{
-    width:100%!important
-}
-#gift-card-banner.heroBanner .bannerContent p,
-#gift-card-banner.heroBanner .bannerContent h3{
-    text-align: center!important;
-}
-#gift-card-banner.heroBanner{
-    min-height:450px!important;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text h3{
-    font-size:40px!important
-}
-#gift-card-banner.heroBanner .bannerImg{
-    right:auto;
-    left:50%;
-    transform: translateX(-50%);
-}
-.fusion-body .shortContainer .fusion-row{
-    padding:0 30px;
-    max-width:100%!important;
-}
-#gift-card-banner.heroBanner .bannerContent .fusion-text h3{
-
-}
-.giftCard-steps{
-    padding-top:250px!important;
-}
-#gift-card-banner.heroBanner .bannerImg{
-    bottom:-425px
-}
-.btnArea a.bttn{
-    font-size:16px;
-    min-width:180px;
-    border-radius:7px;
-    padding:8px 15px;
-}
-#gift-card-banner.heroBanner .bannerImg{
-    width:450px!important
-}
-.giftCard-steps{
-    padding-bottom:50px!important;
-}
-.fusion-body .giftFeatures.shortContainer .fusion-row{
-    padding:0!important;
-}
-.giftFeatures{
-    padding-top:40px!important;
-    padding-bottom:40px!important;
-}
-.locationAddress .fullwidth-video{
-    transform:scale(2.0);
-    top:160px!important;
-}
-.site-footer{
-    margin-top:0; 
-}
-#LocationAddress{
-    padding-top:60px;
-    padding-bottom:60px;
-}
-#landingPage.heroBanner .bannerContent .fusion-text-1{
-    padding-top:30px!important;
-}
-#landingPage.heroBanner .bannerContent .fusion-text-1{
-    padding-bottom:0;
-}
-#landingPage.heroBanner .fusion-row{
-    display:block!important;
-}
-#landingPage.heroBanner .bannerImg{
-    right:0;
-    width:100%!important;
-    position: relative;
-    float:right;
-    top:0;
-    margin-bottom:-100px;
-}
-#landingPage.heroBanner .bannerContent .fusion-text h1 img{
-    display: none;;
-}
-#landingPage.heroBanner .bannerContent{
-    width:100%!important;
-}
-#landingPage.heroBanner .bannerContent .fusion-text-1{
-    text-align: center;
-}
-#landingPage.heroBanner .bannerContent .fusion-text h1 br{
-    display:none;
-}
-#landingPage.heroBanner .bannerContent .fusion-text h1{
-    text-align: center!important;
-}
-#landingPage.heroBanner .fusion-builder-column-2{
-    display:none!important;
-}
-#landingPage.heroBanner .bannerImg{
-    display:block;
-}
-
-.fusion-body .aboutInfo .fusion-row{
-    display:block!important;
-}
-
-.fusion-body .aboutInfo .leftSide,
-.fusion-body .aboutInfo .rightSide{
-    width:100%!important;
-    text-align: center;
-}
-.massageFeature .fusion-row{
-    display:block;
-}
-.fusion-body .massageFeature .sngMassageFeat{
-    float:left;
-    width:100%!important;
-}
-.massageFeature .sngMassageFeat.fusion-builder-column-11{
-    border:none!important;
-}
-.therapist .fusion-row{
-    display:block!important;
-}
-.fusion-body .therapist .sngTherapist{
-    width:calc(100% - 40px)!important;
-    max-width:none!important;
-}
-.fusion-body .therapist .sngTherapist.fusion-builder-column-14{
-    margin-bottom:70px;
-}
-/*newpage*/
-.page-id-1393 #content.full-width{margin: 0px!important;}
-.page-id-1393 .rightSide.contactDetails .phoneNumber{float: right; margin: 0;
-    margin-bottom: 0px;
-margin-bottom: 11px;}
-.new_landingpage .fusion_builder_column.landing_pageslider{width: 100%!important;}
-.new_landingpage .landing_pageslider p{display: block; text-align: center;}
-.new_landingpage .landing_pageslider h1{text-align: center;}
-
-.Second_Section .fusion_builder_column.SecondSec_Right{width: 100%!important;}
-.Second_Section .fusion_builder_column.SecondSec_left {
-    width: 100% !important;
-}
-.Third_Section .fusion_builder_column.Third_left{width: 100%!important;}
-.Third_Section .fusion_builder_column.Third_right{width: 100%!important;}
-.fifth_Section .fusion_builder_column.fifth_Section_Right{width: 100%!important;}
-.fifth_Section .fifth_Section_Right .fusion-column-wrapper{max-width: 100% !important;
-margin-right: 0!important;}
-.fifth_Section .fusion_builder_column.fifth_Section_left{width: 100%!important;}
-.page-id-1393 #bars .bar{border-radius: 0; height: 4px !important; background: #bfbbb9;}
-.page-id-1393 .rightSide.contactDetails .phoneNumber h4 i{color: #bfbbb9 !important;}
-.page-id-1393 #bars{margin-top: 18px;}
-.page-id-1393 .site-footer .widget .textwidget p{background: #322e2f!important;}
-.page-id-1393 #MobileMenu.openMenu .cus_menu{background: #4f464a;}
-.page-id-1393 .cus_menu ul li{border-bottom: 1px solid #483f43;}
-
-.popular-demand .memberbox {
-    max-width: calc(40% - -13px) !important;
-    margin: 20px !important;
-    min-height: 241px;
-}
-
-.heroBanner.memberBanner .member-text {
-    padding-right: 0px!important;
-}
-.popular-demand .memberbox .fusion-text h4{font-size: 28px !important;}
-.popular-demand p br{display: none;}
-.heroBanner.memberBanner .member-text h2 {
-    font-size: 38px;
-}
-.heroBanner.memberBanner .member-text p {
-    font-size: 14px;
-}
-.heroBanner.memberBanner {
-    min-height: 320px !important;
-    margin-top: -75px !important;
-}
-.heroBanner.memberBanner.fusion-flex-container .fusion-flex-align-items-flex-start{
-    margin-top: 80px !important;
-}
-.popular-demand h3 br{display: none;}
-
-.cus_menu ul{margin-top: 0px!important;}
-.cus_menu ul li ul.submenus li{list-style: none;}
-.home .siteHeader .siteLogo a img{max-width: 100%!important;
-margin-left: 0px!important;}
-
-#SecondSeC .banContent.leftSide h3{
-    margin-top:30px;
-}
-
-.storeLocations #wpsl-gmap{
-    position: sticky!important;
-    left:0;
-    height:400px
-}
-#byNearMe.bannerArea .fusion-text{
-    padding-top:0;
-    text-align: center;
-}
-.bannerArea .fusion-text h1{
-    font-size:35px;
-}
-#storeLocations{
-    padding-left:0!important;
-    padding-right:0!important;
-}
-.storeLocations #wpsl-gmap{
-    width:100%;
-}
-#wpsl-result-list{
-    width:100%;
-    padding-left:30px;
-    padding-right:30px;
-}
-
-
-
-
-/*===========New Design 1.2==========*/
-:root{
-    --h1:40px;
-    --h2:30px;
-    --h3:25px;
-    --h4:18px;
-    --h5:16px;
-}
-
-
-.heading.divider .secTitle::before{
-    height:50px;
-}
-
-
-.fusion-body .makeReservation .fusion-row .fusion-layout-column.massageTime {
-    width:100%!important
-}
-.makeReservation .massageTime .fusion-column-wrapper{
-    padding:60px 80px!important;
-}
-
-.fusion-body .common .fusion-row .leftSide,
-.fusion-body .common .fusion-row .rightSide{
-    width:100%!important
-}
-.common .ContentArea,
-.common.row-reverse .ContentArea{
-    padding-left:50px;
-    padding-right:0px;
-}
-.fusion-body .homeServices .fusion-builder-row.fusion-row {
-    max-width: calc(100% - 100px) !important;
-}
-.homeServices .slick-slide .wpsisac-slider-content h2.wpsisac-slide-title a{
-    font-size:25px!important
-}
-.row-reverse.common .ContentArea{
-    text-align: left;
-}
-.row-reverse.common .ContentArea h5::before{
-    left:-50px;
-}
-.row-reverse.common .ContentArea .entryContent p{
-    padding-left:0;
-}
-.common .ContentArea .entryContent p{
-    padding-right:0;
-}
-.common .ContentArea .btnArea .btn{
-    margin-top:15px;
-}
-.fusion-body .memContent .fusion-builder-row.fusion-row{
-    max-width:calc(100% - 100px)!important
-}
-.fusion-body .ourHubLocations .fusion-row .fusion-layout-column.snglLocAddress{
-    width:100%!important;
-    text-align: center;
-}
-.ourHubLocations .snglLocAddress.besides-border{
-    border-left:none;
-    border-right:none;
-}
-
-.homeServiceSlider .slick-list{
-    padding-bottom:80px!important;
-}
-
-.homeServiceSlider .slick-arrow, .homeServiceSlider .slick-arrow:hover, .homeServiceSlider .slick-arrow:focus{
-    transform: unset;
-    top:auto;
-    bottom:0;
-    width:50px;
-    height:50px;
-}
-
-.homeServiceSlider .slick-arrow.slick-next {
-    transform: rotate(-90deg);
-}
-.homeServiceSlider .slick-arrow.slick-prev {
-    transform: rotate(90deg);
-}
-.homeServiceSlider .slick-arrow.slick-prev{
-    left:calc(50% - 60px);
-}
-.homeServiceSlider .slick-arrow.slick-next{
-    right:calc(50% - 60px);
-}
-.fusion-body .homeServices .fusion-builder-row.fusion-row{
-    max-width:100%!important
-}
-.homeServiceSlider .snglServiceSlide{
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-}
-.homeServiceSlider .slick-slide img{
-    width:100%;
-}
-
-.servAllService .fusion-text {
-    margin: 0 15px;
-    width: calc(100% - 30px) !important;
-    border-top-right-radius: 120px;
-    border-bottom-left-radius: 120px;
-  }
-  .servAllService .fusion-text{
-      padding:60px 20px;
-  }
-  .fusion-body .mainServices .fusion-row{
-    max-width: calc(100% - 60px) !important;
-  }
-  .sideBar-socialLinks{
-      left:30px;
-  }
-  .makeReservation.serPage .massageTime .fusion-column-wrapper{
-      margin:20px 0;
-  }
-  .makeReservation.serPage .secTitle{
-      margin-bottom:0;
-  }
-  .common .ContentArea, .common.row-reverse .ContentArea{
-      padding-bottom:0;
-  }
-  .fusion-body .instagramFeed .fusion-builder-row.fusion-row{
-      max-width:calc(100% - 30px) !important;
-  }
-  .site-footer .footerNav .footerMenu ul li a{
-      font-size:14px;
-  }
-  .getTouch .imageArea{
-      padding-left:0!important;
-      padding-right:0!important;
-  }
-  .getTouch .allLocationMM{
-      width:100%;
-  }
-  .getTouch.common #wpsl-gmap{
-      position: relative!important;
-      height:550px;
-  }
-  .getTouch.common .ContentArea, .getTouch.common.row-reverse .ContentArea{
-      padding-left:0!important;
-  }
-  .getTouch .imageArea{
-      margin-top:50px!important;
-  }
   
 
 }
@@ -1686,209 +223,19 @@ margin-left: 0px!important;}
 
 
 @media screen and (min-width:769px) and (max-width:950px){
-    .heroBanner {
-        min-height:100vh!important
-    }
-    .siteHeader .siteLogo{
-        width:100px;
-    }
-    .siteHeader .bookNow-btn .btn{
-        height:60px;
-    }
-    #bars{
-        height:60px;
-        padding:20px;
-        width:80px;
-    }
-    #bars .bar{
-        height:1px;
-    }
-    .scrollDown::before{
-        height:20px;
-    }
-    .scrollDown p{
-        font-size:10px;
-        letter-spacing: 1px;;
-    }
-    .sideBar-socialLinks ul li a img{
-        max-width:24px;
-    }
-    .socialIcons{
-        margin-left:-3px;
-    }
-    .heroBanner .bannerContent .fusion-text h1{
-        font-size:30px!important;
-    }
-    .heroBanner .bannerContent .fusion-text p{
-        font-size:15px;
-        margin-top:5px!important;
-    }
-    .anotherBtn.fusion-button{
-        font-size:12px!important;
-        padding:12px 30px !important
-    }
-    .heroBanner .anotherBtn.fusion-button{
-        margin-top:15px;
-    }
-    .fusion-body .site-footer .fusion-builder-row.fusion-row{
-        max-width:100%!important;
-    }
-    .site-footer .footerNav .footerMenu ul li a,
-    .site-footer .widget .textwidget p{
-        font-size:14px;
-    }
-
-    #MobileMenu{
-        top: 60px;
-        height: calc(100% - 60px);
-    }
-    #MobileMenu .cus_menu ul li.menu-item a.menuLink{
-        padding:11px;
-        font-size:18px;
-    }
-    #MobileMenu .mobile-menu-footer .yelp-txt i{
-        font-size:18px;
-    }
-    #MobileMenu .cus_menu ul li.menu-item i.far{
-        top:17px;
-        font-size:18px;
-    }
-    #MobileMenu .mobile-menu-footer{
-        margin-top:20px;
-    }
-    #MobileMenu .mobile-menu-footer a img{
-        width:40px;
-    }
-    #MobileMenu .mobile-menu-footer .yelp-txt{
-        font-size:20px;
-    }
+   
     
 }
 
 @media screen and (max-width:767px) and (min-width:639px){
-    #MobileMenu{
-        top: 60px;
-        height: calc(100% - 60px);
-    }
-    #MobileMenu .cus_menu ul li.menu-item a.menuLink{
-        padding:11px;
-        font-size:18px;
-    }
-    #MobileMenu .mobile-menu-footer .yelp-txt i{
-        font-size:18px;
-    }
-    #MobileMenu .cus_menu ul li.menu-item i.far{
-        top:17px;
-        font-size:18px;
-    }
-    #MobileMenu .mobile-menu-footer{
-        margin-top:20px;
-    }
-    #MobileMenu .mobile-menu-footer a img{
-        width:40px;
-    }
-    #MobileMenu .mobile-menu-footer .yelp-txt{
-        font-size:20px;
-    }
-	#locAddress .fusion-google-map {
-	  max-height: 350px;
-	}
+    
 }
 
 
 
 
 @media screen and (max-width:767px){
-    .fusion-body .shortContainer .fusion-builder-row.fusion-row, .shortContainer .fusion-row,
-    .fusion-body .smallContainer .fusion-builder-row.fusion-row, .shortContainer .fusion-row,
-    .fusion-body .tooSmallContainer .fusion-builder-row.fusion-row, .shortContainer .fusion-row{
-        max-width:calc(100% - 60px)!important;
-        padding:0;
-    }
-    .btn, .btn.button-flat{
-        padding:8px 60px!important
-    }
-
-    :root{
-        --h1:35px;
-        --h2:28;
-        --h3:22px;
-        --h4:16px;
-        --h5:15px;
-    }
-    .anotherBtn.fusion-button {
-        font-size: 13px !important;
-        padding: 15px 30px !important;
-      }
     
- 
-    .rightSide.contactDetails .phoneNumber{
-        float:right;
-        margin-right:0;
-        margin-top:0;
-        margin-left:10px;
-    }
-
-    body.page-template-100-width_new-page .sideBar-socialLinks{
-        
-    }
-    .heroBanner,
-    body.page-template-100-width_new-page .sideBar-socialLinks,
-    .sideBar-socialLinks{
-        height:80vh!important
-    }
-    .sideBar-socialLinks{
-        left:30px;
-    }
-    .siteHeader .siteLogo{
-        width:100px;
-    }
-    .siteHeader .bookNow-btn .btn{
-        height:40px;
-    }
-    #bars {
-      height: 60px;
-      padding: 0;
-      width: 40px;
-    }
-    #bars .bar{
-        height:1px;
-    }
-    .scrollDown::before{
-        height:20px;
-    }
-    .scrollDown p{
-        font-size:10px;
-        letter-spacing: 5px;;
-    }
-
-    .socialIcons{
-        margin-left:-3px;
-    }
-    .heroBanner .bannerContent .fusion-text h1{
-        font-size:28px!important;        
-    }
-    
-    .heroBanner .bannerContent .fusion-text p{
-        margin-top:5px!important;
-    }
-    .anotherBtn.fusion-button{
-        font-size:12px!important;
-        padding:12px 30px !important
-    }
-    .heroBanner .anotherBtn.fusion-button{
-        margin-top:15px;
-    }
-    .fusion-body .site-footer .fusion-builder-row.fusion-row{
-        max-width:100%!important;
-    }
-    .site-footer .footerNav .footerMenu ul li a,
-    .site-footer .widget .textwidget p{
-        font-size:14px;
-    } 
-	#locAddress .fusion-google-map {
-	  max-height: 300px;
-	}
     
 }
 
@@ -2570,194 +917,87 @@ height:auto!important
 
 
 @media screen and (max-width:479px){
-	.therapist{padding-top:0px!important;}
-    #landingPage.heroBanner.mobile .bannerContent .fusion-text h1{padding: 0px!important;}
-    .secTitle.fusion-title h2{font-size: 34px !important;}
-    #lanPageInfo.aboutInfo.mobile .fusion-builder-row .leftSide.imgArea .fusion-column-wrapper .fusion-imageframe .img-responsive.wp-image-1080 {max-width: 220px !important;}
-   .massageFeature.mobile .fusion-row{padding-left: 0px!important;padding-right: 0px!important;}
-   .img-responsive.wp-image-1104 {position: relative;right: 290px;}
-   #landingPage .bannerContent.leftSide{margin-bottom: 0px!important;}
-   #landingPage.heroBanner.mobile .bannerImg img{position: relative;top: 20px;width: 100%;margin: 0px !important}
-   .fusion-builder-column-4 > .fusion-column-wrapper{margin: 0%!important;}
-   #landingPage.heroBanner.mobile .bannerContent .fusion-text h1{margin-top: 25px!important;}
-   .rightSide.contactDetails .phoneNumber h4 a::before{
-       content:"\f879";
-       font-family:"Font Awesome 5 Pro";
-       font-size:25px;
-       font-weight:100;
-       color:var(--light-text-color) !important;
-   }
-   .rightSide.contactDetails .phoneNumber h4 a span{
-       display:none;
-   }
-
-
-	
-	.homeContent.mobile .secTitle.fusion-title .title-heading-left{font-size: 30px!important;}
-	.homeContent.mobile .LeftSide.experience.contArea .entryContent p{padding: 0px!important;}
-	#LocationAddress .LocationAddress.Style h3{ font-size: 36px;}
-	.LocationAddress.mobile.for #button-for-mobile{font-size: 14px!important;}
-	#Pricesofer .setthetn .forpage{font-size: 12px;padding: 22px 96px;}
-	#Pricesofer .snglePrice.Dark h2{font-size: 20px;}
-	.site-footer{padding: 0px; padding-top: 40px; padding-bottom: 40px;}
-	.page-id-2 .fusion-body .fusion-flex-container.fusion-builder-row-4{padding-right: 12px; padding-left: 12px;}
-	.locationAddress .fusion-text h2{font-size: 25px !important;letter-spacing: 0.1px;	}
-	.bttn.btnOutline.white.more{border: 2px solid #fff; background: #fff;}
-	.rightSide.contactDetails .phoneNumber h4 i{font-size: 35px; margin-right: 0px;}
-
-
-	.rightSide.contactDetails .phoneNumber h4{margin-left: 0px; margin-top: 4px;}
-	.rightSide.contactDetails .phoneNumber h4 i{font-size: 35px;}
-	#about-us .banContent.leftSide h1 br{display: none;}
-	#about-us .banContent.leftSide h1 {font-size: 25px;}
-	#Pricesofer .snglePrice h2{font-size: 19px!important;}
-	#Pricesofer .setthetn .forpage{font-size: 14px;padding: 17px 53px;}
-	.entryContent p{font-size: 16px;line-height:1.7em;}
-	#Pricesofer .snglePrice.dust h2{font-size: 20px;}
-	#Pricesofer .snglePrice.Dark h2{font-size: 19px;}
-	#Pricesofer .setthepera{margin: 0px;}
-	.setthepera p{display: none;}
-	.bttn.fusion-button.btnOutline.white .fusion-button-text{color: #91a0a1;}
-	.bttn.fusion-button.btnOutline:hover .fusion-button-text{color: #91a0a1!important;}
-	#about-us .banContent.leftSide h1{font-size: 24px;}
-	#Pricesofer .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column{padding: 0px 0px !important;}
-    #gift-card-banner.heroBanner{
-        padding-left:10px!important;
-        padding-right:10px!important;
+    .btn, .btn.button-flat {
+        padding: 8px 25px !important;
+        font-size: 11px;
+        letter-spacing: 1px;
+      }
+	.mainLogoArea .fusion-text h1{
+        font-size:40px!important;
     }
-    .locationAddress .anotherBtn.fusion-button.large{
-        padding-left:30px;
-        padding-right:30px;
-        min-width:250px;
-        border-color:#fff;
+    .mainLogoArea .fusion-text h1 strong{
+        font-size:18px;
+    }
+    .mainLogoArea .fusion-text h1{
+        line-height:15px;
+    }
+    .fusion-body .allPages .snglPage{
+        height:230px;
+    }
+    .allPages .snglPage .fusion-title{
+        margin-top:0!important
+    }
+    .allPages .snglPage .fusion-title .title-heading-left{
+        font-size:45px!important;
+        line-height:30px!important;
+    }
+    .sameHeight{
+        height:auto;
+    }
+    .fusion-body .ownerBio .fusion-layout-column{
+        margin-right:0!important;
+        width:100%!important;
+    }
+    .fusion-body .ownerBio .fusion-layout-column .fusion-text{
+        padding:0 15px;
+        text-align: center;
+        margin-bottom:25px;
+    }
+    #ownerBioMobile .fusion-column-wrapper{
+        margin:0;
+    }
+    .fusion-body .ownerBio .fusion-text h3 span,
+    .fusion-body .ownerBio .fusion-text h6 span,
+    .fusion-body .ownerBio .fusion-text p span{
+        color:#636363!important
     }
 
-    .SecondSec_left .img-responsive.wp-image-1538 {
-        max-width: 360px;
+    .fusion-body .ownerBio .fusion-text h3{
+        font-size:30px!important;
     }
 
-
-    .Memberjoinbutton{font-size: 26px !important;padding: 20px 90px !important;}
-    .popular-demand h3 {
-        font-size: 25px;
-    }
-    .popular-demand .memberbox{margin-right: 0px !important;margin-left: 0px !important;}
-    #serviceforpage .fusion-builder-row{
-        padding-left:0!important;
-        padding-right:0!important;
-    }
-    #serviceforpage .snglServices .fusion-column-wrapper .forServices{
-        bottom:10px;
-    }
-    #serviceforpage .snglServices .fusion-column-wrapper{
-        padding-bottom:80px!important;
-    }
-    #serviceforpage{
-        padding-bottom:30px!important
-    }
-    .bannerArea .fusion-text h1{
-        font-size:30px;
-    }
-    #wpsl-result-list{
-        padding-top:35px;
-    }
-    .careerFeatures .leftSide .fusion-text{
-        padding-right:0;
+    .commonSection.sameHeight{
+        height:calc(100vh - 30px);
     }
 
-    #bars{
-        height: 56px;
-        padding: 0;
-        width: 32px;
-        margin-right: 0;
-        margin-left: 0;
+    .commonSection .fusion-text.upper{
+        position: absolute;
+        top:50px;
+        left:50%;
+        transform:translateX(-50%);
     }
-    #bars .bar{
-        margin:4px 0;
+
+    .commonSection .fusion-column-wrapper,
+    .commonSection .fusion-layout-column {
+        position: static;
     }
-    .siteHeader .siteLogo{
-        width:110px;
+    .fusion-body .allPages{
+        margin-bottom:10px!important;
     }
-    .siteHeader{
-        height: 60px!important;
+
+    .commonSection .fusion-text h6{
+        font-family:var(--sweetSans);
+        text-transform: uppercase;
+        font-weight:normal;
     }
-    .siteHeader .bookNow-btn .btn{
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-        height: 40px;
+    .commonSection .fusion-text.lower{
+        max-width:calc(100% - 40px);
+        margin-bottom:80px;
     }
-    .siteHeader{
-        align-items: center;
-        height: 80px !important;
+    .commonSection .fusion-text h2{
+        font-size:35px!important;
+        line-height:35px!important;
     }
-    .siteHeader .bookNow-btn .btn{
-        padding: 0px !important;
-        height: 0;
-        font-weight: bold;
-        letter-spacing: normal;
-        color: #fff !important;
-    }
-    .siteHeader .bookNow-btn .btn::before {
-        color: #f2ede2 !important;
-    }
-    #MobileMenu .cus_menu ul li.menu-item a.menuLink {
-        font-size: 18px;
-    }
-    #MobileMenu .cus_menu ul li.menu-item a.menuLink {
-  font-size: 18px;
-}
-#MobileMenu .cus_menu ul li.menu-item{
-    border-bottom: 0px solid rgba(255,255,255,0.18);
-}
-#MobileMenu .cus_menu ul li.menu-item i.far {
-  font-size: 17px;
-  top: 20px;
-}
-#MobileMenu .cus_menu ul li.menu-item ul.submenus li{
-    padding: 4px 0;
-}
-
-#MobileMenu .mobile-menu-footer a img{
-      width: 50px;
-}
-
-#MobileMenu .mobile-menu-footer .yelp-txt {
-  font-size: 25px;
-}
-
-.star {
-  line-height: normal;
-}
-#MobileMenu .phoneNumber{
-    font-size: 25px;
-}
-#MobileMenu {
-  height: calc(100% - 80px);
-  top: 80px;
-}
-#MobileMenu .mobile-menu-footer{
-    margin-top: 15px;
-}
-#MobileMenu .cus_menu ul li.menu-item ul.submenus li small{
-    top: 0px;
-}
-#MobileMenu .singleSubLoc h2.locTitle{
-    font-weight: 900;
-}
-
-
-}
-
-
-
-
-
-
-
-@media screen and (max-width:413px){
-    #gift-card-banner.heroBanner .bannerContent .fusion-text h3{
-        padding:0;
-        font-size:28px;
-    }
-   
+    
+    
 }

@@ -4,9 +4,9 @@
     
 
     $(document).ready(function () {
-        $("#bars").click(function () {
-            $("#mobileMenu").slideToggle();
-        });
+        // $("#bars").click(function () {
+        //     $("#mobileMenu").slideToggle();
+        // });
         // $(".cus_menu .fa-angle-down").click(function () {
         //     $(this).parent().find(".submenus").slideToggle();
         //     //$(".submenus").slideToggle();
@@ -52,7 +52,7 @@
     (function ($) {
         $(document).ready(function () {
             $(".mobile_toggle").click(function () {
-                $("#MobileMenu").slideToggle();
+                //$("#MobileMenu").slideToggle();
             });
     
     
