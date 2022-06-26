@@ -8,6 +8,21 @@
     .allServices .mainLogoArea{
         margin-top:240px!important;
     }
+
+    .fusion-body .snglLocation .locationImg.fusion-layout-column{
+        width:70%!important;
+    }
+    .fusion-body .snglLocation .locDetails.fusion-layout-column{
+        width:30%!important;
+    }
+    .snglLocation .locDetails .fusion-text h1{
+        line-height:40px!important;
+        font-size:50px;
+    }
+    .snglLocation .locDetails .fusion-text p{
+        font-size:13px;
+        line-height:1.5em;
+    }
 }
 
 
@@ -67,6 +82,18 @@
         width:100%!important;
     }
 
+    .allPages .fusion-column-wrapper .fusion-builder-row{
+        margin-left: calc(-4% / 2 ) !important; 
+    }
+
+    .fusion-body .headerArea .fusion-layout-column.mainLogoArea{
+        margin-bottom:0!important;
+    }
+
+    .snglLocation{
+        height:auto;
+    }
+
 }
 
 
@@ -107,7 +134,16 @@
 }
 
 @media screen and (max-width:1365px){
-
+    .fusion-body .snglLocation .locDetails.fusion-layout-column {
+        width: 35% !important;
+    }
+    .fusion-body .snglLocation .locationImg.fusion-layout-column {
+        width: 65% !important;
+    }
+    .gap.snglLocation .fusion-row {
+        padding-left: 0;
+        padding-right: 0;
+    }
     
 }
 
@@ -141,12 +177,33 @@
     .footerMenu .snglLocation{
         padding:0 15px
     }
+
+    .fusion-body .snglLocation .locDetails.fusion-layout-column {
+        width: 65% !important;
+    }
+    .fusion-body .snglLocation .locationImg.fusion-layout-column {
+        width: 35% !important;
+    }
+    .snglLocation .locDetails .fusion-text h1{
+        margin-bottom:20px;
+    }
+    .snglLocation .locDetails .fusion-text h1 br{
+        display: none;
+    }
+    .snglLocation .locDetails .fusion-text .conDetails{
+        margin-top:25px;
+    }
+    
 }
 
 
 
 
 @media screen and (max-width:1023px){
+
+    #content{
+        margin-top:60px!important
+    }
 
     .siteHeader{
         height:60px;
@@ -238,6 +295,18 @@
         flex-wrap: wrap;
         text-align: center;
     }
+
+    .fusion-body .snglLocation .locationImg.fusion-layout-column,
+    .fusion-body .snglLocation .locDetails.fusion-layout-column{
+        width:100%!important;
+    }
+    .fusion-body .snglLocation .locDetails.fusion-layout-column{
+        margin-top:45px!important;;
+    }
+
+    .fusion-body .snglLocation .locationImg.fusion-layout-column .fusion-column-wrapper{
+        min-height:350px!important
+    }
     
   
 
@@ -258,8 +327,14 @@
 
 
 @media screen and (max-width:767px){
-    
-    
+    .gap.snglLocation .fusion-row{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .snglLocation .locDetails .fusion-text{
+        padding-left:35px;
+        padding-right:35px;
+    }    
 }
 
 @media screen and (max-width:735px){
@@ -348,6 +423,27 @@
     }
     .allServices .allPages .snglPage .fusion-text.servTitle h1 strong{
         font-size:20px;
+    }
+    .snglLocation .locDetails .fusion-text h1 br{
+        display:block;
+    }
+    .fusion-body .snglLocation .locationImg.fusion-layout-column .fusion-column-wrapper{
+        min-height:280px!important;;
+    }
+    .snglLocation .locDetails .fusion-text{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .snglLocation .locDetails .fusion-text h1 {
+        margin-bottom: 20px;
+        font-size: 45px !important;
+        line-height: 35px !important;
+    }
+    .snglLocation .locDetails .fusion-text h4{
+        font-size:20px!important;
+    }
+    .snglLocation.gap{
+        margin-bottom:40px!important;
     }
 }
 
