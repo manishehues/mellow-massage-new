@@ -613,7 +613,7 @@
         content:'';
         width:20px;
         height:10px;
-        background:url('../images/selectArrow.jpg') no-repeat;
+        background:url('../Images/selectArrow.jpg') no-repeat;
         background-size: cover;
         position: absolute;
         right:0;
@@ -789,7 +789,7 @@
         width:calc(100% - 70px);
         margin:auto;
     }
-    .giftCardPage .locName .fusion-text{
+    .giftCardPage.membership .locName .fusion-text{
         margin-top:450px
     }
     .giftCardPage.membership .locName .fusion-text h1 {
