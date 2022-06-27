@@ -302,6 +302,8 @@ function getFooterMenuData($queried_object){
 
 			$menu = getFooterMenus();
 
+			$footer_nav = getFooterNavigation();
+
 			
 			$arrayName[$location_page_id] = array(
 						'location_name'  	=> $main_location_name,
@@ -309,6 +311,7 @@ function getFooterMenuData($queried_object){
 						'address' 			=> $address,
 						'location_page_lnk' => $location_page_lnk,
 						'menu' 				=> $menu,
+						'footer_nav'		=> $footer_nav
 						
 					);
 
@@ -324,6 +327,7 @@ function getFooterMenuData($queried_object){
 
 		$default_menu = $requested_post_parent;
 	}
+
 
 	return $arrayName[$default_menu];
 }
@@ -352,6 +356,36 @@ function getFooterMenus() {
 	return $menu; 
 
 }
+
+
+function getFooterNavigation() {
+
+	$menu = [];
+	$i= 0;
+	if( have_rows('footer_navigation') ):
+		while ( have_rows('footer_navigation') ) : the_row();
+			$page_link_link = "";					
+			$contact_detail = get_sub_field('contact_detail');
+			$menu_name = get_sub_field('menu_name');
+			$menu_obj = get_sub_field('menu_link');
+
+			$page_link_link = get_permalink($menu_obj->ID);
+			
+			if(!empty($menu_obj)){
+				$page_link_link = get_permalink($menu_obj->ID);
+			}
+					
+			$menu[] = array('menu_name' => $menu_name,'page_link_link' => $page_link_link,'id' =>$menu_obj->ID );
+						
+		endwhile; // END PAGES WHILE LOOP 
+	endif;
+
+	return $menu; 
+
+}
+
+
+
 
 function get_single_social_link($social_link_type,$social_links_array){
 	$link = "#";

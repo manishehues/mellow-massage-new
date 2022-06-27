@@ -942,6 +942,33 @@ body.logged-in .siteHeader{
     clear:both;
     padding-bottom:150px;
 }
+.site-footer .footer-nav{
+    float:left;
+    width:100%;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.site-footer .footer-nav ul{
+    list-style:none;
+    font-size:0;
+}
+
+.site-footer .footer-nav ul li{
+    display:inline-block;
+    font-family:var(--sweetSans);
+    font-size:11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:var(--darkGrey-color);
+    letter-spacing: 2px;
+    margin:0 25px;
+}
+
+.site-footer .footer-nav ul li a{
+    color:var(--darkGrey-color);
+}
 
 .footerMenu{
     display:flex
@@ -972,7 +999,7 @@ body.logged-in .siteHeader{
 
 .copyright{
     display:block;
-    margin-top:70px;
+    margin-top:40px;
     text-align: center;
     font-family:var(--sweetSans);
     font-size:11px;

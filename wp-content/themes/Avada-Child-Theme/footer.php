@@ -41,6 +41,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<?php } ?>							
 								
 							</div>
+
+
+							<div class="footer-nav">
+								<?php if($footerContent['footer_nav']){ ?>
+									<ul class="footernav">
+										<?php foreach($footerContent['footer_nav'] as $footernav){ ?>
+
+											<li><a href="<?php echo  $footernav['page_link_link'];?>"?><?php echo  $footernav['menu_name'];?></a></li>
+
+										<?php } ?>
+									</ul>
+
+
+								<?php } ?>
+							</div>
 							<!-- <div class="col-6 footerMenu newsletter">
 								<?php dynamic_sidebar('avada-custom-sidebar-footersocaillinks'); ?>
 							</div> -->

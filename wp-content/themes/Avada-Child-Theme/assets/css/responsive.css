@@ -520,6 +520,15 @@
         display:block;
         
     }
+    .site-footer .footer-nav ul li{
+        margin:0 10px;
+    }
+    .site-footer .footer-nav ul li:first-child{
+        margin-left:0;
+    }
+    .site-footer .footer-nav ul li:last-child{
+        margin-right:0;
+    }
 }
 
 
