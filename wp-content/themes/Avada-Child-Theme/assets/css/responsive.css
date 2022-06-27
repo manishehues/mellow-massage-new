@@ -111,6 +111,19 @@
         padding-bottom:90px;
     }
 
+    .fusion-body .ownerBio .fusion-layout-column {
+        margin-right: 20px !important;        
+        width: 580px !important;
+    }
+    .fusion-body .ownerBio .fusion-text h6{
+        font-size:22px;
+        margin-top:30px;
+    }
+    .fusion-body .ownerBio .fusion-text h3{
+        font-size:30px!important;;
+        line-height:35px!important;;
+    }
+
 }
 
 

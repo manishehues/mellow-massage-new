@@ -983,6 +983,7 @@ body.logged-in .siteHeader{
     flex:1 1 auto;
     height:auto;
     margin-bottom:0!important;
+    text-align: center;
 }
 
 .footerMenu .snglLocation h4{
@@ -1001,6 +1002,14 @@ body.logged-in .siteHeader{
     text-transform: uppercase;
     line-height:28px;
     color:var(--darkGrey-color)
+}
+.footerMenu .snglLocation .conDetails p:last-child{
+    margin-bottom:0!important;;
+}
+
+.footerMenu .snglLocation .btnArea{
+    margin-top:10px;
+    margin-bottom:30px;
 }
 
 .copyright{
