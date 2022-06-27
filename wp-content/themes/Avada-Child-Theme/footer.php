@@ -72,14 +72,30 @@ if ( ! defined( 'ABSPATH' ) ) {
 // 		});
 
 		jQuery(document).ready(function(){
-			jQuery(".mobile_toggle").click(function(){
-				jQuery(".siteHeader .navBar ul").slideToggle();
-			});	
+
+			jQuery(".snglLocation").click(function(){
+				jQuery(".snglLocation").removeClass("open-location");
+
+				jQuery(this).addClass("open-location");
+			})
+			
+			
+
+				jQuery(".mobile_toggle").click(function(){			
+					if( jQuery(window).width() < 1024){
+
+						jQuery(".siteHeader .navBar ul").slideToggle();
+					}
+				});	
+			
+
 		});
 </script>
 
 <script type="text/javascript">
 				jQuery( document ).ready( function() {
+
+
 					var ajaxurl = 'https://lifeismellow.creativehausdev.com/wp-admin/admin-ajax.php';
 					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
 						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {

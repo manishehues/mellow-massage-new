@@ -23,6 +23,16 @@
         font-size:13px;
         line-height:1.5em;
     }
+
+    .fusion-body .fusion-fullwidth.giftCardPage{
+        margin-bottom:60px!important;
+    }
+    .fusion-body .fusion-fullwidth.giftCardPage{
+        width:calc(100% - 100px)!important;
+    }
+    .fusion-body .headerArea .fusion-layout-column.mainLogoArea{
+        margin-top:0!important
+    }
 }
 
 
@@ -94,6 +104,13 @@
         height:auto;
     }
 
+
+    #membership{
+        height:auto!important;;
+        padding-top:90px;
+        padding-bottom:90px;
+    }
+
 }
 
 
@@ -144,6 +161,99 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .fusion-body .giftCardPage .locSelection h2{
+        font-size:45px;
+        line-height:45px!important;
+    }
+    .fusion-body .giftCardPage .locSelection{
+        margin-right:0!important;
+        margin-top:30px!important;
+    }
+    .fusion-body .giftCardPage .locSelection .fusion-text {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .giftCardPage .locName .fusion-text h1{
+        font-size:80px;
+        line-height:65px!important;
+    }
+    .giftCardPage .locName .fusion-text h4{
+        font-size:35px;
+    }
+    .site-footer{
+        max-width:1170px;
+    }
+
+    .fusion-body .giftCardPage.Mobile{
+        display:block!important;
+    }
+    .fusion-body .giftCardPage.desktop{
+        display:none!important;
+    }
+    .fusion-body .giftCardPage .locSelection{
+        margin-top:450px!important;;
+    }
+
+    .fusion-body .giftCardPage .locName,
+    .fusion-body .giftCardPage .locSelection{
+        width:100%!important;        
+    }
+
+    .fusion-body .giftCardPage .locSelection .fusion-column-wrapper{
+        margin-left:35px!important;
+        margin-right:35px!important;
+    }
+
+    .fusion-body .giftCardPage .locSelection .locMenu{
+        margin-left:-35px;
+        margin-right:-35px;
+        padding:35px;
+        padding-bottom:40px;
+        background:rgba(0,0,0,0.4);
+        margin-bottom:40px;
+    }
+
+    .fusion-body .giftCardPage .locSelection .locMenu select{
+        margin-bottom:0;
+    }
+
+
+    .fusion-body .giftCardPage.gap .fusion-row{
+        padding:0!important;
+        margin:0!important;
+    }
+    .giftCardPage .locName .fusion-text{
+        margin-top:50px;
+    }
+    .giftCardPage .locName .fusion-text h1{
+        font-size:55px!important;
+        line-height:45px!important;
+    }
+    .giftCardPage .locName .fusion-text h1 br{
+        display:none;
+    }
+    .giftCardPage .locName .fusion-text h4{
+        font-size:25px!important;;
+    }
+
+    .giftCardPage .locName .fusion-text{
+        text-align: center;
+    }
+    
+
+    .fusion-body .giftCardPage.membership .locName{
+        width:100%!important;
+    }
+    .giftCardPage .locName .fusion-text{
+        margin-top:450px;
+    }
+    .giftCardPage.membership .locName .fusion-text h4{
+        margin-top:0;
+    }
+    .giftCardPage.membership .locName .fusion-text{
+        text-align: left;
+    }
+    
     
 }
 
@@ -334,7 +444,14 @@
     .snglLocation .locDetails .fusion-text{
         padding-left:35px;
         padding-right:35px;
-    }    
+    }  
+    
+    .fusion-body .giftCardPage .locSelection .locMenu{
+        margin-left:-35px!important;
+    }
+    .fusion-body .giftCardPage .locSelection{
+        margin-top:350px!important;
+    }
 }
 
 @media screen and (max-width:735px){
@@ -363,6 +480,12 @@
     } */
     #gift-card-banner.heroBanner .bannerContent .fusion-text h3{
         padding-top:0!important
+    }
+
+    .fusion-body .fusion-fullwidth.giftCardPage.membership{
+        width:100%!important;
+        padding-left:35px!important;
+        padding-right:35px!important;
     }
 }
 
@@ -444,6 +567,85 @@
     }
     .snglLocation.gap{
         margin-bottom:40px!important;
+    }
+
+    .fusion-body .fusion-fullwidth.giftCardPage{
+        width:100% !important;
+    }
+
+    .giftCardPage .locName .fusion-text h1{
+        font-size:45px!important;
+        line-height:40px!important;
+    }
+    .giftCardPage .locName .fusion-text h4{
+        font-size:20px!important;
+    }
+    .fusion-body .giftCardPage .locSelection{
+        margin-top:300px!important;
+    }
+
+    .giftCardPage.membership .locName .fusion-text h1{
+        font-size:45px!important;
+        line-height:45px!important;
+    }
+    .giftCardPage.membership .locName .fusion-text h4{
+        font-size:20px!important;
+    }
+    .fusion-body .giftCardPage.membership .sngFeature h5{
+        font-size:18px!important;
+    }
+    .fusion-body .fusion-fullwidth.giftCardPage{
+        margin-bottom:0!important;;
+    }
+    #content{
+        margin-bottom:0!important;
+    }
+    .site-footer{
+        padding-bottom:30px;
+    }
+    .footerMenu .snglLocation h4{
+        margin:0!important;
+        padding:28px 0;
+        cursor: pointer;
+        position: relative;
+    }
+    .footerMenu .snglLocation h4::after{
+        content:'';
+        width:20px;
+        height:10px;
+        background:url('../images/selectArrow.jpg') no-repeat;
+        background-size: cover;
+        position: absolute;
+        right:0;
+        top:50%;
+        transform:translateY(-50%);
+    }
+    .footerMenu .snglLocation{
+        float:left;
+        width:100%;
+        border-bottom:1px solid #d0cdcb;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .footerMenu .snglLocation .conDetails{
+        height:0;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .footerMenu .snglLocation.open-location .conDetails{
+        height:auto;
+    }
+    .footerMenu{
+        text-align: left;
+        max-width:calc(100% - 40px);
+        margin:auto;
     }
 }
 
@@ -537,6 +739,71 @@
         left:25px;
     }
     
+    .fusion-body .giftCardPage .locSelection{
+        margin-top:220px!important;
+        margin-bottom:20px!important
+    }
+
+    .fusion-body .giftCardPage .locSelection .fusion-column-wrapper,
+    .fusion-body .giftCardPage .locSelection .locMenu{
+        margin:0!important;
+    }
+
+    .fusion-body .giftCardPage .locSelection .locMenu{
+        padding:20px;
+        margin-bottom:30px!important;
+        margin-left: -35px !important;
+        margin-right: -35px!important;
+    }
+    .fusion-body .giftCardPage .locSelection .locMenu label.label{
+        font-size:16px;
+    }
+    .fusion-body .giftCardPage .locSelection .locMenu select{
+        height:50px;
+        radius:10px;
+        padding:5px 15px;
+        font-size:18px;
+        background-size:20px 10px;
+        background-position: calc(100% - 15px) center;
+    }
+    .giftCardPage .locName .fusion-text{
+        margin-top:20px;
+        
+    }
+    .giftCardPage .locName .fusion-text h1{
+        font-size:40px!important;
+        line-height:35px!important;
+    }
+    .giftCardPage .locName .fusion-text h4{
+        font-size:18px;
+    }
+    .fusion-body .giftCardPage .locSelection h2{
+        font-size:35px!important;
+        line-height:35px!important;
+    }
+    .fusion-body .giftCardPage .locSelection .fusion-text {
+        padding-top: 40px;
+        padding-bottom: 50px;
+      }
+    .fusion-body .giftCardPage .locSelection .fusion-text{
+        width:calc(100% - 70px);
+        margin:auto;
+    }
+    .giftCardPage .locName .fusion-text{
+        margin-top:450px
+    }
+    .giftCardPage.membership .locName .fusion-text h1 {
+        font-size: 35px !important;
+        line-height: 35px !important;
+      }
+      .fusion-body .giftCardPage.membership .sngFeature h5{
+        font-size:16px!important;
+        letter-spacing: 1px;
+        margin-bottom:5px;
+      }
+      .fusion-body .giftCardPage.membership .sngFeature p{
+        letter-spacing: 1px;;
+      }
     
     
 }
