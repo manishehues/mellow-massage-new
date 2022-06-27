@@ -1165,7 +1165,7 @@ body.logged-in .siteHeader{
 }
 .fusion-body .giftCardPage .locSelection .locMenu select{
     width:100%;
-    background:url('../images/selectArrow.jpg')no-repeat #faf7f4;
+    background:url('../Images/selectArrow.jpg')no-repeat #faf7f4;
     height:60px;
     border-radius:15px;
     display:block;
