@@ -966,6 +966,12 @@ body.logged-in .siteHeader{
     margin:0 25px;
 }
 
+.footerMenu .snglLocation .conDetails .btn {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 9px 25px !important;
+  }
+
 .site-footer .footer-nav ul li a{
     color:var(--darkGrey-color);
 }
