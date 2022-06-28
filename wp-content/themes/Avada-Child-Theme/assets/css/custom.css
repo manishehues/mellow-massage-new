@@ -405,6 +405,7 @@ body.logged-in .siteHeader{
     left:0;
     cursor: pointer;
     left:35px;
+    display:none;
 }
 .siteHeader .mobile_toggle .bar{
     float:left;
@@ -422,7 +423,7 @@ body.logged-in .siteHeader{
 
 .siteHeader .navBar{
     float:left;
-    margin-left:60px;    
+    /* margin-left:60px;     */
 }
 .siteHeader .fusion-row{
     
@@ -888,7 +889,7 @@ body.logged-in .siteHeader{
 .fusion-body .ownerBio .fusion-text h3{
     line-height:40px!important;
     text-transform: uppercase;
-    letter-spacing: -3px!important;
+    letter-spacing: -1px!important;
 }
 
 .fusion-body .ownerBio .fusion-text h6{
@@ -1143,7 +1144,7 @@ body.logged-in .siteHeader{
     color:var(--white-color);
     text-align: center;
     line-height:30px!important;
-    font-size:65px!important;
+    font-size:55px!important;
     text-transform:uppercase;
 }
 
@@ -1153,7 +1154,7 @@ body.logged-in .siteHeader{
 
 .allServices .allPages .snglPage .fusion-text.servTitle h1 strong{
     font-weight:normal;
-    font-size:28px;
+    font-size:27px;
 }
 
 /* ===========Gift Card Page========== */
@@ -1169,6 +1170,8 @@ body.logged-in .siteHeader{
     font-size:100px;
     line-height:85px!important;
     margin-top:0;
+    text-transform: uppercase;
+
 
 }
 .giftCardPage .locName .fusion-text h4{
@@ -1193,7 +1196,7 @@ body.logged-in .siteHeader{
     border-bottom:1px solid var(--white-color)
 }
 
-.fusion-body .giftCardPage .locSelection .locMenu label.label{
+.fusion-body .giftCardPage .locMenu label.label{
     font-size:20px;
     color:var(--white-color);
     text-transform: uppercase;
@@ -1205,7 +1208,7 @@ body.logged-in .siteHeader{
 .fusion-body .giftCardPage .locSelection .locMenu br{
     display:none;
 }
-.fusion-body .giftCardPage .locSelection .locMenu select{
+.fusion-body .giftCardPage .locMenu select{
     width:100%;
     background:url('../Images/selectArrow.jpg')no-repeat #faf7f4;
     height:60px;
@@ -1222,7 +1225,7 @@ body.logged-in .siteHeader{
    background-position: calc(100% - 25px) center;
    margin-bottom:40px;  
 }
-.fusion-body .giftCardPage .locSelection .locMenu select option{
+.fusion-body .giftCardPage .locMenu select option{
     font-family:var(--sweetSans);    
 }
 
@@ -1247,6 +1250,16 @@ body.logged-in .siteHeader{
 #membership {
     height:100vh!important;
 }
+
+
+.giftCardPage.membership .locMenu br{
+    display:none;
+}
+
+.giftCardPage.membership .locMenu select{
+    max-width:400px;
+}
+
 
 .giftCardPage.membership .locName .fusion-text h4{
     font-size:25px!important

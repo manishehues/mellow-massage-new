@@ -88,20 +88,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		jQuery(document).ready(function(){
 
-			jQuery(".snglLocation").click(function(){
-				jQuery(".snglLocation").removeClass("open-location");
+			var acc = document.getElementsByClassName("snglLocation");
+			var panel = document.getElementsByClassName('conDetails');
 
-				jQuery(this).addClass("open-location");
-			})
-			
-			
+			for (var i = 0; i < acc.length; i++) {
+			    acc[i].onclick = function() {
+			    	var setClasses = !this.classList.contains('open-location');
+			        setClass(acc, 'open-location', 'remove');
+			        
+			       	if (setClasses) {
+			            this.classList.toggle("open-location");
+			            //this.nextElementSibling.classList.toggle("show");
+			        }
+			    }
+			}
 
-				jQuery(".mobile_toggle").click(function(){			
-					if( jQuery(window).width() < 1024){
+			function setClass(els, className, fnName) {
+			    for (var i = 0; i < els.length; i++) {
+			        els[i].classList[fnName](className);
+			    }
+			}
 
-						jQuery(".siteHeader .navBar ul").slideToggle();
-					}
-				});	
+			jQuery(".selectLocation").change(function(){
+			    var selected_location = jQuery(this).val();
+			    window.location.href = site_url+'/'+selected_location;
+
+			});
+
+			jQuery(".mobile_toggle").click(function(){			
+				if( jQuery(window).width() < 1024){
+
+					jQuery(".siteHeader .navBar ul").slideToggle();
+				}
+			});	
 			
 
 		});

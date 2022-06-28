@@ -48,8 +48,13 @@
     .fusion-body .fusion-layout-column.mainLogoArea{
         width:300px!important
     }
+
+    .fusion-body #heroArea .fusion-row,
+    .fusion-body #allServices .fusion-row{
+        justify-content: space-between;
+    }
     .fusion-body .fusion-layout-column.allPages{
-        width:calc(100% - 300px) !important
+        width:calc(100% - 330px) !important
     }
     .mainLogoArea .fusion-text h1{
         font-size:50px!important;
@@ -83,15 +88,17 @@
     .rightSide.contactDetails{
         margin-right:0;
     }
-    .fusion-body .fusion-layout-column.mainLogoArea{
+  /*   .fusion-body .fusion-layout-column.mainLogoArea{
         width:100%!important;
         margin-top:30px!important;
         margin-bottom:50px!important;
     }
+	
+	
     .fusion-body .fusion-layout-column.allPages{
         width:100%!important;
     }
-
+*/
     .allPages .fusion-column-wrapper .fusion-builder-row{
         margin-left: calc(-4% / 2 ) !important; 
     }
@@ -120,8 +127,12 @@
         margin-top:30px;
     }
     .fusion-body .ownerBio .fusion-text h3{
-        font-size:30px!important;;
+        font-size:29px!important;;
         line-height:35px!important;;
+    }
+
+    .allServices .allPages .snglPage .fusion-text.servTitle h1{
+        font-size:45px!important;
     }
 
 }
@@ -160,6 +171,22 @@
     .fusion-body .fusion-layout-column.allPages .fusion-column-wrapper{
         margin-left:0!important;
         margin-right:0!important;
+    }
+    
+
+    .fusion-body .fusion-layout-column.allPages{
+        width:calc(100% - 400px) !important;
+    }
+
+    .fusion-body .fusion-layout-column.mainLogoArea{
+        width:350px!important;
+    }
+
+    .fusion-body #heroArea .fusion-row{
+        justify-content: space-between!important;;
+    }
+    .allPages .snglPage .fusion-title .title-heading-left{
+        font-size:45px!important;
     }
 }
 
@@ -217,7 +244,7 @@
         margin-right:35px!important;
     }
 
-    .fusion-body .giftCardPage .locSelection .locMenu{
+    .fusion-body .giftCardPage .locMenu{
         margin-left:-35px;
         margin-right:-35px;
         padding:35px;
@@ -226,7 +253,7 @@
         margin-bottom:40px;
     }
 
-    .fusion-body .giftCardPage .locSelection .locMenu select{
+    .fusion-body .giftCardPage .locMenu select{
         margin-bottom:0;
     }
 
@@ -277,7 +304,18 @@
         margin-left: calc(-4% / 2 ) !important;
         margin-right: calc(-4% / 1) !important;
     }
-
+  /*Edited on Michael request */  
+	.fusion-body .fusion-layout-column.mainLogoArea{
+        width:100%!important;
+        margin-top:50px!important;
+        margin-bottom:40px!important;
+    }
+	
+	
+    .fusion-body .fusion-layout-column.allPages{
+        width:100%!important;
+    }
+  /*Edited on Michael request ends */  
 
     .fusion-body .ownerBio .fusion-text h3{
         font-size:25px;
@@ -316,7 +354,16 @@
     .snglLocation .locDetails .fusion-text .conDetails{
         margin-top:25px;
     }
-    
+
+    #allServices .mainLogoArea .fusion-text .btnArea{
+        display:none;
+    }
+    #allServices .mainLogoArea .fusion-text p{
+        margin-bottom:0!important;
+    }
+    .siteHeader .mobile_toggle{
+        display:block
+    }
 }
 
 
@@ -430,7 +477,15 @@
     .fusion-body .snglLocation .locationImg.fusion-layout-column .fusion-column-wrapper{
         min-height:350px!important
     }
-    
+    .siteHeader .navBar{
+        display:block;
+    }
+    .footerMenu .snglLocation .conDetails p{
+        line-height:22px;
+    }
+    .fusion-body .allPages{
+        margin-bottom:0;
+    }
   
 
 }
@@ -459,7 +514,7 @@
         padding-right:35px;
     }  
     
-    .fusion-body .giftCardPage .locSelection .locMenu{
+    .fusion-body .giftCardPage .locMenu{
         margin-left:-35px!important;
     }
     .fusion-body .giftCardPage .locSelection{
@@ -669,6 +724,10 @@
         max-width:calc(100% - 40px);
         margin:auto;
     }
+
+    .footerMenu .snglLocation h4{
+        text-align: left;;
+    }
 }
 
 
@@ -767,20 +826,20 @@
     }
 
     .fusion-body .giftCardPage .locSelection .fusion-column-wrapper,
-    .fusion-body .giftCardPage .locSelection .locMenu{
+    .fusion-body .giftCardPage .locMenu{
         margin:0!important;
     }
 
-    .fusion-body .giftCardPage .locSelection .locMenu{
+    .fusion-body .giftCardPage .locMenu{
         padding:20px;
         margin-bottom:30px!important;
         margin-left: -35px !important;
         margin-right: -35px!important;
     }
-    .fusion-body .giftCardPage .locSelection .locMenu label.label{
+    .fusion-body .giftCardPage .locMenu label.label{
         font-size:16px;
     }
-    .fusion-body .giftCardPage .locSelection .locMenu select{
+    .fusion-body .giftCardPage .locMenu select{
         height:50px;
         radius:10px;
         padding:5px 15px;
